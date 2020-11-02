@@ -53,7 +53,7 @@ public class vCoOwnerGuardianAuthorizedPerson extends viFATCA {
 
     private Boolean vJobCivilServant;
 
-    private Boolean vJopRetired;
+    private Boolean vJobRetired;
 
     private Boolean vJobStudent;
 

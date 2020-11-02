@@ -26,7 +26,7 @@ public class iAccountHolder extends iiApplyingNewAccount {
 
     private Boolean customerFreeVisa;
 
-    private Timestamp customerStartDateVisa;
+    private Timestamp customerBeginDateVisa;
 
     private Timestamp customerEndDateVisa;
 
@@ -79,9 +79,9 @@ public class iAccountHolder extends iiApplyingNewAccount {
 
     private Boolean customerIncomeUnder10m;
 
-    private Boolean customerIncomeFrom10to20m;
+    private Boolean customerIncomeFrom10To20m;
 
-    private Boolean customerIncomeFrom20to30m;
+    private Boolean customerIncomeFrom20To30m;
 
     private Boolean customerIncomeOver30m;
 
