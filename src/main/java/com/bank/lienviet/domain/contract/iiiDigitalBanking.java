@@ -3,7 +3,7 @@ package com.bank.lienviet.domain.contract;
 import lombok.Data;
 
 @Data
-public class iiiDigitalBanking extends ivForeignTrust {
+public class iiiDigitalBanking extends ivForeignTrust{
 
     private Boolean IssuingNewCard;
 

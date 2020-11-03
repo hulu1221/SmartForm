@@ -54,7 +54,7 @@
 	<parameter name="CustomerGender" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[true]]></defaultValueExpression>
 	</parameter>
-	<parameter name="CustomerBirthday" class="java.lang.String"/>
+	<parameter name="CustomerBirthday" class="java.sql.Timestamp"/>
 	<parameter name="CustomerBirthPlace" class="java.lang.String"/>
 	<parameter name="CustomerNationality" class="java.lang.String"/>
 	<parameter name="VerificationPaperPlace" class="java.lang.String"/>
@@ -64,7 +64,7 @@
 	</parameter>
 	<parameter name="CustomerPermanentAddress" class="java.lang.String"/>
 	<parameter name="CustomerEndDateVisa" class="java.lang.String"/>
-	<parameter name="CustomerBeginDateVisa" class="java.lang.String"/>
+	<parameter name="CustomerBeginDateVisa" class="java.sql.Timestamp"/>
 	<parameter name="CustomerFreeVisa" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
@@ -78,7 +78,7 @@
 	<parameter name="ReceivingCardPlace" class="java.lang.String"/>
 	<parameter name="VIII_AccountOpeningDate" class="java.lang.String"/>
 	<parameter name="CustomerCurrentAddress" class="java.lang.String"/>
-	<parameter name="CustomerAcademicLevelHigher" class="java.lang.Boolean">
+	<parameter name="CustomerAcademicLevelHigherUniversity" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="DefaultAccount" class="java.lang.String"/>
@@ -122,7 +122,7 @@
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="MobileBanking_PhoneNo2" class="java.lang.String"/>
-	<parameter name="Job_OtherText" class="java.lang.String"/>
+	<parameter name="CustomerJobOtherText" class="java.lang.String"/>
 	<parameter name="CardClass_Diamond" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
@@ -136,7 +136,7 @@
 	<parameter name="CustomerMaritalStatus_Single" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[true]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_Other" class="java.lang.Boolean">
+	<parameter name="CustomerJobOther" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="SecurityMethod_PhoneNumber" class="java.lang.Boolean">
@@ -145,46 +145,46 @@
 	<parameter name="IssuingForm_Immediately" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_CivilServant" class="java.lang.Boolean">
+	<parameter name="CustomerJobCivilServant" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_SelfEmployed" class="java.lang.Boolean">
+	<parameter name="CustomerJobSelfEmployed" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_Student" class="java.lang.Boolean">
+	<parameter name="CustomerJobStudent" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="WorkPlace" class="java.lang.String"/>
+	<parameter name="CustomerWorkPlace" class="java.lang.String"/>
 	<parameter name="OverDraft" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Income_ViaBank" class="java.lang.Boolean">
+	<parameter name="CustomerIncomeViaBank" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Income_Over30m" class="java.lang.Boolean">
+	<parameter name="CustomerIncomeOver30m" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Income_From20mTo30m" class="java.lang.Boolean">
+	<parameter name="CustomerIncomeFrom20mTo30m" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Income_From10mTo20m" class="java.lang.Boolean">
+	<parameter name="CustomerIncomeFrom10mTo20m" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="SecurityQuestion" class="java.lang.String"/>
 	<parameter name="IssuingForm_Normaly" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Income_Under10m" class="java.lang.Boolean">
+	<parameter name="CustomerIncomeUnder10m" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="JobPosition" class="java.lang.String"/>
+	<parameter name="CustomerJobPosition" class="java.lang.String"/>
 	<parameter name="SecurityMethod_TokenKey" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="ViViet" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_Retired" class="java.lang.Boolean">
+	<parameter name="CustomerJobRetired" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="InternetBanking_Silver" class="java.lang.Boolean">
@@ -193,7 +193,7 @@
 	<parameter name="MobileBanking_Gold" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="Job_OfficeWorker" class="java.lang.Boolean">
+	<parameter name="CustomerJobOfficeWorker" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="InternetBanking_Diamond" class="java.lang.Boolean">
@@ -202,13 +202,13 @@
 	<parameter name="CustomerLandlinePhone" class="java.lang.String"/>
 	<parameter name="VerificationPaperDate" class="java.lang.String"/>
 	<parameter name="AccountPlan" class="java.lang.String"/>
-	<parameter name="AccountType_ReceiveSalary" class="java.lang.Boolean">
+	<parameter name="AccountTypeReceiveSalary" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="AccountType_Payment" class="java.lang.Boolean">
+	<parameter name="AccountTypePayment" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Nation" class="java.lang.String"/>
+	<parameter name="V_Nationality" class="java.lang.String"/>
 	<parameter name="V_Resident" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
@@ -233,43 +233,43 @@
 	<parameter name="IV_2" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Co-ownerWithAccountHolder" class="java.lang.Boolean">
+	<parameter name="CoOwnerWithAccountHolder" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="V_BirthPlace" class="java.lang.String"/>
 	<parameter name="V_VerificationPaperPlace" class="java.lang.String"/>
-	<parameter name="AccountType_OtherText" class="java.lang.String"/>
+	<parameter name="AccountTypeOtherStr" class="java.lang.String"/>
 	<parameter name="V_VerificationPaperDate" class="java.lang.String"/>
 	<parameter name="V_VerificationPapers" class="java.lang.String"/>
-	<parameter name="V_DateOfBirth" class="java.lang.String"/>
+	<parameter name="V_Birthday" class="java.lang.String"/>
 	<parameter name="V_Gender" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="V_Name" class="java.lang.String"/>
-	<parameter name="V_PersonAuthorizedByAccountHolder" class="java.lang.Boolean"/>
+	<parameter name="PersonAuthorizedByAccountHolder" class="java.lang.Boolean"/>
 	<parameter name="V_RelationWithAccountHolder" class="java.lang.String"/>
 	<parameter name="V_CurrentAddress" class="java.lang.String"/>
 	<parameter name="V_LandlinePhone" class="java.lang.String"/>
-	<parameter name="V_PernamentdAddress" class="java.lang.String"/>
-	<parameter name="V_Job_OtherText" class="java.lang.String"/>
+	<parameter name="V_PermanentAddress" class="java.lang.String"/>
+	<parameter name="V_JobOtherText" class="java.lang.String"/>
 	<parameter name="V_MobilePhone" class="java.lang.String"/>
 	<parameter name="V_Email" class="java.lang.String"/>
-	<parameter name="V_Job_OfficeWorker" class="java.lang.Boolean">
+	<parameter name="V_JobOfficeWorker" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Job_CivilServant" class="java.lang.Boolean">
+	<parameter name="V_JobCivilServant" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Job_Student" class="java.lang.Boolean">
+	<parameter name="V_JobStudent" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Job_Other" class="java.lang.Boolean">
+	<parameter name="V_JobOther" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="SMSBanking" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_AuthorizationPeriod_WaitUntilDone" class="java.lang.Boolean">
+	<parameter name="V_AuthorizationPeriodWaitUntilDone" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="V_WorkPlace" class="java.lang.String"/>
@@ -280,24 +280,24 @@
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="V_JobPosition" class="java.lang.String"/>
-	<parameter name="V_Job_SelfEmployed" class="java.lang.Boolean">
+	<parameter name="V_JobSelfEmployed" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_Job_Retired" class="java.lang.Boolean">
+	<parameter name="V_JobRetired" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_VisaEndDate" class="java.lang.String"/>
+	<parameter name="V_EndDateVisa" class="java.lang.String"/>
 	<parameter name="VI_2" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="VI_1" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_VisaStartDate" class="java.lang.String"/>
+	<parameter name="V_BeginDateVisa" class="java.lang.String"/>
 	<parameter name="IssuingNewCard" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="AccountType_Other" class="java.lang.Boolean">
+	<parameter name="AccountTypeOther" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="VII_TheAuthorizedPerson" class="java.lang.Boolean"/>
@@ -313,7 +313,7 @@
 	<parameter name="V_FreeVisa" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_AuthorizationScopeOtherText" class="java.lang.String"/>
+	<parameter name="V_AuthorizationScopeOtherStr" class="java.lang.String"/>
 	<parameter name="V_AuthorizationScopeOther" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
@@ -324,7 +324,7 @@
 	<parameter name="V_AuthorizationScopeAll" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
-	<parameter name="V_GuardianOfAccountHolder" class="java.lang.Boolean">
+	<parameter name="GuardianOfAccountHolder" class="java.lang.Boolean">
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="box_unchecked" class="java.lang.String">
@@ -342,9 +342,12 @@
 		<defaultValueExpression><![CDATA[false]]></defaultValueExpression>
 	</parameter>
 	<parameter name="accDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="dataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
+	<field name="contractId" class="java.lang.String"/>
+	<field name="CIF" class="java.lang.String"/>
 	<group name="Group2">
 		<groupFooter>
 			<band height="827">
@@ -1299,7 +1302,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Co-ownerWithAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CoOwnerWithAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="0" y="148" width="10" height="10" uuid="63df09fa-a664-484d-9053-c8b0df0b474a">
@@ -1308,7 +1311,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_GuardianOfAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{GuardianOfAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="236" y="148" width="10" height="10" uuid="4abcce44-d3cd-48c5-b59e-61f3626b6f9d">
@@ -1317,7 +1320,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_PersonAuthorizedByAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{PersonAuthorizedByAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<textField>
 					<reportElement x="70" y="162" width="270" height="17" uuid="bf424a3e-249a-4c0c-8797-3ab48fffa4b7"/>
@@ -1331,7 +1334,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_DateOfBirth}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_Birthday}]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="395" y="179" width="100" height="17" uuid="2cbd63cd-ee39-42c1-9bca-703deeb6464e"/>
@@ -1381,7 +1384,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_Nation}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_Nationality}]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="480" y="196" width="85" height="17" uuid="7baad218-fd35-47be-9f37-3e710f5daed7"/>
@@ -1441,7 +1444,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_PernamentdAddress}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_PermanentAddress}]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="115" y="264" width="450" height="17" uuid="9b3e2383-339a-43e1-8d70-2c9985b878c4"/>
@@ -1476,14 +1479,14 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_VisaStartDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_BeginDateVisa}]]></textFieldExpression>
 				</textField>
 				<textField isBlankWhenNull="true">
 					<reportElement x="503" y="230" width="62" height="17" uuid="9843aa35-200c-41c6-bffa-98570ac95d9f"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_VisaEndDate}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_EndDateVisa}]]></textFieldExpression>
 				</textField>
 				<image>
 					<reportElement x="107" y="301" width="10" height="10" uuid="16939c9a-6642-410c-8c8d-0f14bdae9cad">
@@ -1492,7 +1495,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_OfficeWorker} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobOfficeWorker} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="318" width="10" height="10" uuid="a29db64d-113b-46bd-9ab1-d9fcc8c328ca">
@@ -1501,7 +1504,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_Student} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobStudent} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="235" y="301" width="10" height="10" uuid="394918f1-46d8-44a8-97d7-b560619154cb">
@@ -1510,7 +1513,7 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_CivilServant} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobCivilServant} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="235" y="318" width="10" height="10" uuid="b7ee0e2d-e741-4f35-9996-2b6253636a2d">
@@ -1519,7 +1522,7 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_SelfEmployed} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobSelfEmployed} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="301" width="10" height="10" uuid="4ec08f0a-17cc-4cd9-a6e3-da4c248e5da4">
@@ -1528,7 +1531,7 @@
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_Retired} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobRetired} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="318" width="10" height="10" uuid="d1d8a913-806f-49eb-8e35-f80c705dbaaa">
@@ -1537,7 +1540,7 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_Job_Other} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_JobOther} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<textField>
 					<reportElement x="55" y="332" width="288" height="17" uuid="c799599a-e38c-45aa-8f10-77b06b1889df"/>
@@ -1558,7 +1561,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_Job_OtherText}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_JobOtherText}]]></textFieldExpression>
 				</textField>
 				<image>
 					<reportElement x="107" y="352" width="10" height="10" uuid="8bfa7f6e-01b3-46d9-a05b-b2f50a968e95">
@@ -1594,7 +1597,7 @@
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{V_AuthorizationPeriod_WaitUntilDone} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{V_AuthorizationPeriodWaitUntilDone} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="420" width="10" height="10" uuid="38daa6ef-ffd4-45b3-9771-06cdddb50765">
@@ -1617,7 +1620,7 @@
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{V_AuthorizationScopeOtherText}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{V_AuthorizationScopeOtherStr}]]></textFieldExpression>
 				</textField>
 				<image>
 					<reportElement x="32" y="454" width="10" height="10" uuid="59dc44a1-2263-49d7-a971-d43804d76e4e">
@@ -3557,14 +3560,14 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{ContractNo}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{contractId}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="442" y="73" width="119" height="17" uuid="a86c8bc5-bb7c-469f-af5a-410ff4c7c435"/>
+					<reportElement x="434" y="73" width="119" height="17" uuid="a86c8bc5-bb7c-469f-af5a-410ff4c7c435"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{CIF}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$F{CIF}]]></textFieldExpression>
 				</textField>
 				<textField>
 					<reportElement x="70" y="125" width="270" height="15" uuid="6cce7c95-e4ee-4270-a378-f4bef224f62d"/>
@@ -3712,7 +3715,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_Student} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobStudent} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="295" width="10" height="10" uuid="1132ce87-a375-4696-8b1d-a4baa203d66e">
@@ -3721,7 +3724,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_OfficeWorker} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobOfficeWorker} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="280" width="10" height="10" uuid="23411e2e-4471-44d0-ae71-2a5d5c001a3c">
@@ -3748,7 +3751,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_SelfEmployed} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobSelfEmployed} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="235" y="295" width="10" height="10" uuid="b335bfca-8612-427f-be5e-e637f22f50b2">
@@ -3757,7 +3760,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_CivilServant} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobCivilServant} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="235" y="280" width="10" height="10" uuid="57b2f925-a3c0-471d-8d6b-0711216f8369">
@@ -3784,7 +3787,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_Other} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobOther} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="295" width="10" height="10" uuid="3026b3cf-4cdd-42d6-8083-1d9f0d7f3ff3">
@@ -3793,7 +3796,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Job_Retired} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerJobRetired} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="280" width="10" height="10" uuid="0b861e48-4d34-4f5f-9efb-4e4779853c05">
@@ -3829,14 +3832,14 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{CustomerAcademicLevelHigher} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerAcademicLevelHigherUniversity} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<textField>
 					<reportElement x="55" y="323" width="508" height="15" uuid="13e57709-4e8c-40db-a864-243a70a6090d"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{JobPosition}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{CustomerJobPosition}]]></textFieldExpression>
 				</textField>
 				<image>
 					<reportElement x="107" y="341" width="10" height="10" uuid="c249c13b-693e-4d76-9032-46a3fdb9cc6f">
@@ -3845,7 +3848,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Income_Under10m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerIncomeUnder10m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="356" width="10" height="10" uuid="7811ce9b-4063-4c63-a73e-0c06a9c71699">
@@ -3854,7 +3857,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Income_From20mTo30m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerIncomeFrom20mTo30m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="341" width="10" height="10" uuid="dd4ad6f6-9013-426f-af5d-de21c83d6715">
@@ -3863,7 +3866,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Income_From10mTo20m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerIncomeFrom10mTo20m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="356" width="10" height="10" uuid="bb75b75f-a960-4c54-a1a2-fe14d236af57">
@@ -3872,7 +3875,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Income_Over30m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerIncomeOver30m} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="343" y="371" width="10" height="10" uuid="de37e9bb-a85d-4047-8c44-5b2de4b9075d">
@@ -3881,7 +3884,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{Income_ViaBank} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{CustomerIncomeViaBank} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<textField>
 					<reportElement x="70" y="368" width="258" height="15" uuid="b4c7a07c-ce26-4aa0-ae2c-6df672bec410"/>
@@ -3895,7 +3898,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{WorkPlace}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{CustomerWorkPlace}]]></textFieldExpression>
 				</textField>
 				<image>
 					<reportElement x="133" y="386" width="10" height="10" uuid="7d3ac667-cfb2-4ab7-b01f-2b2c0ff50d14">
@@ -3936,7 +3939,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{AccountType_Payment} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{AccountTypePayment} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="107" y="451" width="10" height="10" uuid="8da44fac-723d-4fa6-90a0-c6969849f3a9">
@@ -3963,7 +3966,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{AccountType_ReceiveSalary} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{AccountTypeReceiveSalary} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<image>
 					<reportElement x="246" y="451" width="10" height="10" uuid="eb278ee9-d5f2-41e7-8c42-e2d03c483fff">
@@ -3981,7 +3984,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					</reportElement>
-					<imageExpression><![CDATA[$P{AccountType_Other} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+					<imageExpression><![CDATA[$P{AccountTypeOther} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 				</image>
 				<textField>
 					<reportElement x="520" y="433" width="43" height="15" uuid="31eb5cf4-cf38-4cda-b9ab-da809dddb25a"/>
@@ -3995,7 +3998,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{AccountType_OtherText}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{AccountTypeOtherStr}]]></textFieldExpression>
 				</textField>
 				<textField isBlankWhenNull="true">
 					<reportElement x="325" y="448" width="238" height="15" uuid="08b3ce72-19e2-420d-bfa4-8d3f3cdb49fe"/>
@@ -4009,7 +4012,7 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11.5"/>
 					</textElement>
-					<textFieldExpression><![CDATA[$P{Job_OtherText}]]></textFieldExpression>
+					<textFieldExpression><![CDATA[$P{CustomerJobOtherText}]]></textFieldExpression>
 				</textField>
 			</band>
 		</groupHeader>
@@ -4033,8 +4036,8 @@ MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN]]></text>
 			<componentElement>
 				<reportElement x="0" y="0" width="565" height="338" uuid="428b789a-176c-4c35-9143-bea2315fc8f5"/>
 				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
-					<datasetRun subDataset="accDataSource" uuid="db85afe2-3299-43cd-b2b7-87cce69deef2">
-						<dataSourceExpression><![CDATA[$P{accDataSource}]]></dataSourceExpression>
+					<datasetRun subDataset="accDataSource" uuid="5e53f59d-02f9-4b38-83e6-c89d72c291df">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource()]]></dataSourceExpression>
 					</datasetRun>
 					<jr:listContents height="338" width="565">
 						<frame>

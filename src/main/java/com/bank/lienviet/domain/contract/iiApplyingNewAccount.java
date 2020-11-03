@@ -25,4 +25,6 @@ public class iiApplyingNewAccount extends iiiDigitalBanking {
 
     private String currencyTypeOtherStr;
 
+    private DigitalBanking digitalBankingList;
+
 }

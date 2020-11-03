@@ -124,6 +124,20 @@ public class ContractController {
         contract.setViViet(true);
         contract.setViVietPhoneReg("0258963147");
 
+        // list reg new account
+        List<DigitalBanking> listAcc = new ArrayList<>();
+        DigitalBanking newAcc1 = new DigitalBanking(true, "default account 1", true, false, false, "other debit card",
+                false, false, true, false, "other class", "123456789", true, false, "receiving card place", "security question", "answer",
+                true, true, "mobileBankingPhoneReg1", "mobileBankingPhoneReg2", true, true, false, false, true, "bankPlusPhoneReg",
+                true, true, true, true, "email@email.com", true, true, true, "0123456789");
+        DigitalBanking newAcc2 = new DigitalBanking(true, "default account 2", true, false, false, "other debit card",
+                false, false, true, false, "other class", "123456789", true, false, "receiving card place", "security question", "answer",
+                true, true, "mobileBankingPhoneReg1", "mobileBankingPhoneReg2", true, true, false, false, true, "bankPlusPhoneReg",
+                true, true, true, true, "email@email.com", true, true, true, "0123456789");
+
+        listAcc.add(newAcc1);
+//        listAcc.add(newAcc2);
+
         // IV Nhận ủy thác của ủy thác nước ngoài
         contract.setForeignTrust1(true);
         contract.setForeignTrust2(true);
@@ -143,7 +157,7 @@ public class ContractController {
         contract.setVVerificationPaperDate(new Timestamp(System.currentTimeMillis()));
         contract.setVVerificationPaperPlace("Hà nội");
         contract.setVFreeVisa(true);
-        contract.setVStartDateVisa(new Timestamp(System.currentTimeMillis()));
+        contract.setVBeginDateVisa(new Timestamp(System.currentTimeMillis()));
         contract.setVEndDateVisa(new Timestamp(System.currentTimeMillis()));
         contract.setVPermanentAddress("Hoàng Mai, Hà nội");
         contract.setVCurrentAddress("Hà nội, Việt Nam");
@@ -207,6 +221,8 @@ public class ContractController {
     public String exportReport(Contract contract) throws FileNotFoundException, JRException {
         File file = ResourceUtils.getFile("classpath:DeNghiKiemHopDong.jrxml");
         String path = "D:\\DEV\\printed reports\\";
+//        List<Contract> listContract = new ArrayList<>();
+//        listContract.add(contract);
 
         // list reg new account
         List<DigitalBanking> listAcc = new ArrayList<>();
@@ -220,7 +236,7 @@ public class ContractController {
                 true, true, true, true, "email@email.com", true, true, true, "0123456789");
 
         listAcc.add(newAcc1);
-//        listAcc.add(newAcc2);
+        listAcc.add(newAcc2);
 
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
         JRBeanCollectionDataSource accDataSource = new JRBeanCollectionDataSource(listAcc);
@@ -278,20 +294,75 @@ public class ContractController {
         parameters.put("AccountTypePayment", contract.getAccountTypePayment());
         parameters.put("AccountTypeReceiveSalary", contract.getAccountTypeReceiveSalary());
         parameters.put("AccountTypeOther", contract.getAccountTypeOther());
-//        parameters.put(())
+        parameters.put("AccountTypeOtherStr", contract.getAccountTypeOtherStr());
 
+        // IV Thong tin chu so huu huong loi va nhan uy thac cua uy thac nuoc ngoai
+        parameters.put("IV_1", contract.getForeignTrust1());
+        parameters.put("IV_2", contract.getForeignTrust2());
 
+        // V Thong tin nguoi Dong so huu/Nguoi giam ho/Nguoi duoc uy quyen
+        parameters.put("CoOwnerWithAccountHolder", contract.getCoOwnerWithAccountHolder());
+        parameters.put("GuardianOfAccountHolder ", contract.getGuardianOfAccountHolder());
+        parameters.put("PersonAuthorizedByAccountHolder", contract.getPersonAuthorizedByAccountHolder());
+        parameters.put("V_Name", contract.getVName());
+        parameters.put("V_Gender", contract.getVGender());
+        parameters.put("V_Birthday", contract.getVBirthday());
+        parameters.put("V_BirthPlace", contract.getVBirthPlace());
+        parameters.put("V_Resident", contract.getVResident());
+        parameters.put("V_Nationality", contract.getVNationality());
+        parameters.put("V_RelationshipWithAccountHolder", contract.getRelationshipWithAccountHolder());
+        parameters.put("V_VerificationPapers", contract.getVVerificationPapers());
+        parameters.put("V_VerificationPaperDate", contract.getVVerificationPaperDate());
+        parameters.put("V_VerificationPaperPlace", contract.getVVerificationPaperPlace());
+        parameters.put("V_FreeVisa", contract.getVFreeVisa());
+        parameters.put("V_BeginDateVisa", contract.getVBeginDateVisa());
+        parameters.put("V_EndDateVisa", contract.getVEndDateVisa());
+        parameters.put("V_PermanentAddress", contract.getVPermanentAddress());
+        parameters.put("V_CurrentAddress", contract.getVCurrentAddress());
+        parameters.put("V_LandlinePhong", contract.getVLandlinePhone());
+        parameters.put("V_MobilePhone", contract.getVMobilePhone());
+        parameters.put("V_Email", contract.getVEmail());
+        parameters.put("V_JobOfficeWorker", contract.getVJobOfficeWorker());
+        parameters.put("V_JobCivilServant", contract.getVJobCivilServant());
+        parameters.put("V_JobRetired", contract.getVJobRetired());
+        parameters.put("V_JobStudent", contract.getVJobStudent());
+        parameters.put("V_JobSelfEmployed", contract.getVJobSelfEmployed());
+        parameters.put("V_JobOther", contract.getVJobOther());
+        parameters.put("V_JobOtherStr", contract.getVJobOtherStr());
+        parameters.put("V_JobPosition", contract.getVJobPosition());
+        parameters.put("V_WorkPlace", contract.getVWorkPlace());
+        parameters.put("V_AuthorizationScopeAll", contract.getAuthorizationScopeAll());
+        parameters.put("V_AuthorizationScopeOther", contract.getAuthorizationScopeOther());
+        parameters.put("V_AuthorizationScopeOtherStr", contract.getAuthorizationScopeOtherStr());
+        parameters.put("V_AuthorizationPeriodByDate", contract.getAuthorizationPeriodByDate());
+        parameters.put("V_AuthorizationPeriodWaitUntilDone", contract.getAuthorizationPeriodWaitUntilDone());
+        parameters.put("V_AuthorizationPeriodFromDate", contract.getAuthorizationPeriodFromDate());
 
+        // VI Thong tin FATCA
+        parameters.put("VI_1", contract.getFatCa1());
+        parameters.put("VI_II", contract.getFatCa2());
 
+        // VII Xac nhan cua khach hang
+        parameters.put("VII_2", contract.getConfirmation2());
+        parameters.put("V_AccountHolderName", contract.getAccountHolderName());
+        parameters.put("VII_CoOwner", contract.getTheCoOwner());
+        parameters.put("VII_TheGuardian", contract.getTheGuardian());
+        parameters.put("VTheAuthorizedPerson", contract.getTheAuthorizedPerson());
 
-
-
+        // VII Danh cho ngan hang
+        parameters.put("VIII_EmployeeId", contract.getEmployeeId());
+        parameters.put("VIII_AccountNumberVND", contract.getAccountNumberVND());
+        parameters.put("VIII_AccountNumberForeign", contract.getAccountNumberForeign());
+        parameters.put("VIII_AccountNumberViViet", contract.getAccountNumberViViet());
+        parameters.put("VIII_AccountNumberOpeningDate", contract.getAccountOpeningDate());
+        List<Contract> contractList = new ArrayList<>();
+        contractList.add(contract);
         // data source for list acount Customer
         parameters.put("accDataSource", accDataSource);
+        parameters.put("dataSource", contractList);
+        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, new JRBeanCollectionDataSource(contractList));
+        System.out.println(new JRBeanCollectionDataSource(contractList));
 
-        //
-        //JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, accDataSource);
-        JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, new JREmptyDataSource());
 
         JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//DeNghiKiemHopDong.pdf");
         return "printed document path: " + path;

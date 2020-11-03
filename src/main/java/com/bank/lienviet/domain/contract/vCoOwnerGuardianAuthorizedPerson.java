@@ -35,7 +35,7 @@ public class vCoOwnerGuardianAuthorizedPerson extends viFATCA {
 
     private Boolean vFreeVisa;
 
-    private Timestamp vStartDateVisa;
+    private Timestamp vBeginDateVisa;
 
     private Timestamp vEndDateVisa;
 
