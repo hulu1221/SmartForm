@@ -1,11 +1,11 @@
-package com.bank.lienviet.domain.contract;
+package com.bank.lienviet.domain.contract.infor;
 
 import lombok.Data;
 
 import java.sql.Timestamp;
 
 @Data
-public class viiiForBanks {
+public class ForBanks {
 
     private String employeeId;
 

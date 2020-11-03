@@ -1,11 +1,15 @@
-package com.bank.lienviet.domain.contract;
+package com.bank.lienviet.domain.contract.infor;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-public class iiiDigitalBanking extends ivForeignTrust{
+@AllArgsConstructor
+@NoArgsConstructor
+public class DigitalBanking {
 
-    private Boolean IssuingNewCard;
+    private Boolean issuingNewCard;
 
     private String defaultAccount;
 

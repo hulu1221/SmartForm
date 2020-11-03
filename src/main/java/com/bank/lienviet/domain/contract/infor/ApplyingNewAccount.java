@@ -1,9 +1,12 @@
-package com.bank.lienviet.domain.contract;
+package com.bank.lienviet.domain.contract.infor;
 
 import lombok.Data;
+import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
+
+import java.util.List;
 
 @Data
-public class iiApplyingNewAccount extends iiiDigitalBanking {
+public class ApplyingNewAccount extends ForeignTrust {
 
     private String accountName;
 
@@ -25,6 +28,6 @@ public class iiApplyingNewAccount extends iiiDigitalBanking {
 
     private String currencyTypeOtherStr;
 
-    private DigitalBanking digitalBankingList;
+    private JRBeanCollectionDataSource digitalBanking;
 
 }
