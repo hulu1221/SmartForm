@@ -185,10 +185,1951 @@
 		<groupFooter>
 			<band height="827">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<staticText>
+					<reportElement x="0" y="28" width="435" height="20" forecolor="#263B92" uuid="bfcf03f9-e23d-4021-8beb-470e2514f140">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[IV. Thông tin chủ sở hữu hưởng lợi và nhận ủy thác của ủy thác nước ngoài]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="51" width="30" height="15" uuid="a95ad5c1-bb4d-4c13-a0b0-fbf205ba5e8b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[1. Tôi]]></text>
+				</staticText>
+				<image>
+					<reportElement x="31" y="55" width="8" height="8" uuid="6817e341-a107-4993-b948-acdee425592d">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{foreignTrust1} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="44" y="51" width="15" height="15" uuid="05ee1d55-6f0d-40f2-8103-5e4058282f58">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Có]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="60" y="51" width="250" height="15" uuid="a8ba2ac3-12d3-452c-9bd2-c7ff74238450">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[(vui lòng khai báo bổ sung mẫu biểu theo quy định)/]]></text>
+				</staticText>
+				<image>
+					<reportElement x="310" y="55" width="8" height="8" uuid="1dad2394-6d58-4561-a990-9bea533e0310">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{foreignTrust1} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="324" y="51" width="238" height="15" uuid="bce2fe31-a5bf-48cf-bd24-ba7a58ba7582">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Không có các cá nhân (i) Chi phối hoạt động, thụ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="65" width="564" height="14" uuid="e2ee124e-8b46-417c-8d5d-43ae2fb8c5cc">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Top">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[hưởng của tài khoản, giao dịch hoặc (ii) Ủy thác, ủy quyền cho tôi hoặc (iii) Có quyền chi phối cá nhân hoặc tổ chức]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="78" width="155" height="14" uuid="11d41264-c10e-4f41-84b9-9dc8e4f21473">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Top">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[ủy thác, ủy quyền cho tôi.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="98" width="30" height="15" uuid="a9fef211-aebc-415d-8ee5-2df9ac3858d6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[2. Tôi]]></text>
+				</staticText>
+				<image>
+					<reportElement x="32" y="102" width="8" height="8" uuid="c3175eb8-712c-4368-9c5a-f2358a0b71bc">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{foreignTrust2} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="46" y="98" width="146" height="15" uuid="7318dc55-800d-4d31-8999-3f434aa80c7f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Có]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="64" y="98" width="252" height="15" uuid="70c5d0b2-aa43-488d-9f29-6e1dc2bad2c0">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[(vui lòng khai báo bổ sung mẫu biểu theo quy định)/]]></text>
+				</staticText>
+				<image>
+					<reportElement x="317" y="102" width="8" height="8" uuid="a0586508-5b6a-49ff-bbc7-d78ef1f3b45d">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{foreignTrust2} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="331" y="98" width="224" height="15" uuid="923b2ddd-41fd-487d-9307-bcb2ce43d4ff">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Không phải là người nhận ủy thác của ủy thác]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="113" width="64" height="15" uuid="9a0da417-0c0a-4cf0-a20f-81cc87a414af">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[nước ngoài.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="135" width="435" height="15" forecolor="#263B92" uuid="95696765-c855-4ad4-a9d7-2ffcbbd7dbcd">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[V. Thông tin Người đồng sở hữu/Người giám hộ/Người được ủy quyền]]></text>
+				</staticText>
+				<image>
+					<reportElement x="0" y="155" width="8" height="8" uuid="10b27d47-8549-4858-a6f5-ab83e753c8b9">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coOwnerWithAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="14" y="152" width="150" height="15" uuid="d99729e0-971c-43fb-96f8-4f70e0437598">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Đồng sở hữu với chủ tài khoản]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="162" y="152" width="400" height="15" uuid="5457a581-e3c7-459b-8924-b5c1929e1976">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[(vui lòng khai báo bổ sung Thỏa thuận quản lý và sử dụng tài khoản đồng sở hữu)]]></text>
+				</staticText>
+				<image>
+					<reportElement x="0" y="176" width="8" height="8" uuid="5cf6f14e-fa01-4412-94f2-46fc0afa7904">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{guardianOfAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="14" y="172" width="199" height="15" uuid="16ea0e5f-b3a7-48db-97c5-981947371a66">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Người giám hộ của chủ tài khoản]]></text>
+				</staticText>
+				<image>
+					<reportElement x="232" y="176" width="8" height="8" uuid="1bbd4a67-5740-4cff-85df-03bf293b3a37">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{personAuthorizedByAccountHolder} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="246" y="172" width="186" height="15" uuid="0111efd4-f5fc-450a-9f3a-40c9994732a6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Người được chủ tài khoản ủy quyền]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="193" width="57" height="15" uuid="ab5722b5-a417-4891-a7c5-ca74b0d03823">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Họ và tên*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="57" y="193" width="270" height="15" uuid="b841b483-bf58-45bd-a551-6d9abe9286db"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coName}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="329" y="193" width="55" height="15" uuid="56fb4d1c-a244-42eb-897f-7de7aab3cd83">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Giới tính*:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="426" y="196" width="8" height="8" uuid="79429193-6802-43b6-b0a6-df0cb6a9e513">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coGender} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="437" y="193" width="30" height="15" uuid="e735c327-4908-4e57-8da8-8e6eaf376092">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nam]]></text>
+				</staticText>
+				<image>
+					<reportElement x="497" y="196" width="8" height="8" uuid="55a7cf4d-91e6-4e21-9af6-67db8c028040">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coGender} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="509" y="193" width="20" height="15" uuid="7962c1de-2354-4abb-9354-777162dca6e5">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nữ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="207" width="60" height="15" uuid="259a188a-8136-45ea-8b2a-5a0a1ebf2b89"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Ngày sinh*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="61" y="207" width="266" height="15" uuid="0665a6cf-c8c1-425f-b17e-a6dd4562f2df"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("MM/dd/yyyy").format($F{coBirthday})]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="329" y="207" width="55" height="15" uuid="ec047906-0fdc-412a-b12c-0acd808ba1c6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nơi sinh*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="384" y="207" width="170" height="15" uuid="b3fcc85e-5dc5-4235-a73a-99fe2d2a7877"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coBirthPlace}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="222" width="80" height="15" uuid="5527e37b-253e-4c26-ad75-18ad92f8410d"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Người cư trú*:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="107" y="225" width="8" height="8" uuid="16828eaa-3150-4759-b09e-eb845dcc8ebb">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coResident} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="118" y="222" width="20" height="15" uuid="e891cb19-4627-4fa4-a288-ff718cf81f4c">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Có]]></text>
+				</staticText>
+				<image>
+					<reportElement x="147" y="225" width="8" height="8" uuid="2cd3e1e7-681a-4207-b519-677c963a0de5">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coResident} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="161" y="222" width="45" height="15" uuid="c1c5d419-6c77-43ba-a500-082ede322e9b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isItalic="false"/>
+					</textElement>
+					<text><![CDATA[Không]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="217" y="222" width="55" height="15" uuid="a661cf03-16e3-457e-95c2-9cc73f649713">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Quốc tịch¹:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="272" y="222" width="55" height="15" uuid="3ea86a07-9155-4b61-b7a4-78c46f819647"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coNationality}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="329" y="222" width="138" height="15" uuid="eee3e921-8007-4ba6-8cab-69d977d26e5f">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Quan hệ với chủ tài khoản*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="467" y="222" width="87" height="15" uuid="d25c278f-1fc3-4e17-aa04-18a6c1f11396"/>
+					<box>
+						<pen lineWidth="0.0" lineStyle="Solid"/>
+						<topPen lineWidth="0.0" lineStyle="Solid"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{relationshipWithAccountHolder}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="236" width="60" height="15" uuid="f0031bec-7641-41e3-951e-78959137b735">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Số GTXM*]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="60" y="236" width="155" height="15" uuid="98d133e2-9e7b-40e0-b2cc-4bd3618c5cc6"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coVerificationPapers}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="218" y="236" width="55" height="15" uuid="f09f1ea3-6840-4f3b-8f0b-6095babb3c05">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Ngày cấp*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="273" y="236" width="54" height="15" uuid="649321c6-18b4-4d56-824f-da064b8f8943"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coVerificationPaperDate}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="330" y="236" width="50" height="15" uuid="2d123506-df5e-4eb9-87da-990dabf63b05">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nơi cấp*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="380" y="236" width="174" height="15" uuid="5f4004eb-2f11-486a-ac0c-6c8b054a1973"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coVerificationPaperPlace}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="251" width="100" height="15" uuid="80c7297e-2b39-4a86-ba2e-8afc6250a41d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Thị thực nhập cảnh:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="106" y="255" width="8" height="8" uuid="2b1410bd-55f2-4f4a-98ac-c444c7f31cff">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coFreeVisa} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="121" y="251" width="130" height="15" uuid="568a2788-1af7-4d39-999a-18834381a374">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Miễn thị thực nhập cảnh]]></text>
+				</staticText>
+				<image>
+					<reportElement x="333" y="255" width="8" height="8" uuid="6811f403-95ca-4e45-81f5-6fc18bca7def">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coFreeVisa} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="347" y="251" width="45" height="15" uuid="66838658-19fb-4844-ae71-39a4cdf0e26f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Từ ngày]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="392" y="251" width="58" height="15" uuid="a7e2c7b7-2582-4a57-b73b-a53fa1b5b720"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("MM/dd/yyyy").format($F{coBeginDateVisa})]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="453" y="251" width="45" height="15" uuid="46b66736-2785-43df-86d0-a8d49a2ec003">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[đến ngày]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="498" y="251" width="56" height="15" uuid="1577f50d-bc05-453a-8d6d-144d8b0e36dc"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("MM/dd/yyyy").format($F{coEndDateVisa})]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="266" width="100" height="15" uuid="9e053508-52ca-4cce-9f60-72dd46f8822d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Địa chỉ thường trú*:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="280" width="115" height="15" uuid="60104f98-4fa9-4a23-9e9a-b0bad0c880e6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Địa chỉ nơi ở hiện tại*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="115" y="280" width="439" height="15" uuid="989aafe4-652b-4fb4-8f9d-d607def9c080"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coCurrentAddress}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="100" y="266" width="454" height="15" uuid="23b8ca34-db6e-43f4-ac40-29d8b3cbe03f"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coPermanentAddress}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="295" width="59" height="15" uuid="3f08d73a-130c-40b3-bfe4-9f90f2b3564c">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[ĐT cố định:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="59" y="295" width="123" height="15" uuid="3f2e1bd2-a415-4870-9bd8-97d39df6d5b4"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coLandlinePhone}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="190" y="295" width="50" height="15" uuid="c538365e-7935-45da-b049-d166f0abfdfc">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Di động*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="240" y="295" width="93" height="15" uuid="2effc67e-5799-48c0-b019-85170529de5c"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coMobilePhone}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="334" y="295" width="33" height="15" uuid="c7fdb965-76b3-4d9f-998f-7e5c872d0cd5">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Email:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="367" y="295" width="187" height="15" uuid="bade0811-1b6a-452c-b2bd-7732d44e8521"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coEmail}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="310" width="102" height="15" uuid="94130b6b-b37c-43e7-b92a-8e1ec39e2141">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nghề nghiệp*:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="106" y="313" width="8" height="8" uuid="1797c673-07e0-454c-8744-383b065605a5">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobOfficeWorker} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="310" width="106" height="15" uuid="94735f1a-ea9e-447e-905e-6639114f89e1">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nhân viên văn phòng]]></text>
+				</staticText>
+				<image>
+					<reportElement x="232" y="313" width="8" height="8" uuid="dc1db6a9-8b68-4823-89ea-f7069c836987">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobCivilServant} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="246" y="310" width="68" height="15" uuid="6bf1f8d1-0a15-456e-ac78-1c921fcd0641">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Công chức]]></text>
+				</staticText>
+				<image>
+					<reportElement x="334" y="313" width="8" height="8" uuid="de064820-a53e-49d9-86f1-1a619c2da4af">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobRetired} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="347" y="310" width="50" height="15" uuid="dd6ed254-d45e-4e59-9002-d5aed2412757">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Hưu trí]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="348" y="324" width="30" height="15" uuid="c20c43e1-ecdc-4d04-96ad-d6e5d8f41104">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Khác]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="378" y="324" width="176" height="15" uuid="da4a9d29-6d58-4702-a236-8c1d9150a24f"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coJobOtherStr}]]></textFieldExpression>
+				</textField>
+				<image>
+					<reportElement x="334" y="328" width="8" height="8" uuid="b224efb2-e370-45e1-b0fa-0d74e53a4ecb">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobOther} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="246" y="324" width="68" height="15" uuid="699a302d-4117-4061-888d-505c5992c90d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Tự doanh]]></text>
+				</staticText>
+				<image>
+					<reportElement x="232" y="328" width="8" height="8" uuid="0cfbea8a-bb98-46d4-8e1c-60cd69a469d4">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobSelfEmployed} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="324" width="106" height="15" uuid="088b72f0-95f8-4f2e-9369-74023c468605">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Học sinh, sinh viên]]></text>
+				</staticText>
+				<image>
+					<reportElement x="106" y="328" width="8" height="8" uuid="8be2b856-3f65-4006-8853-1ff2bacab93e">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{coJobStudent} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="0" y="339" width="55" height="15" uuid="a8075ead-ba66-4314-83d0-8607a7922743">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Chức vụ*:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="55" y="339" width="288" height="15" uuid="fdf5f030-e66b-43ce-9241-5ab45c3e6077"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coJobPosition}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="343" y="339" width="68" height="15" uuid="29595682-1957-4d30-beda-ccbc9da2320e">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Nơi công tác:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="411" y="339" width="143" height="15" uuid="59e85413-a790-4d04-ac8a-8f1582ea429c"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coWorkPlace}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="354" width="98" height="15" uuid="6f6318ae-e339-4e44-94f5-d415cbb3500c">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Phạm vi ủy quyền:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="107" y="357" width="8" height="8" uuid="844c9a4c-1579-4749-ab11-6983d2c9f9bf">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{authorizationScopeAll} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="107" y="372" width="8" height="8" uuid="0cc5a2fa-9ee4-4ad6-b130-994734bd627d">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{authorizationScopeOther} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="121" y="368" width="28" height="15" uuid="6f66c154-83a0-4447-88ac-1b2ee88ff03d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Khác]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="149" y="368" width="405" height="15" uuid="690b80a8-5ee0-4d17-91b3-2c309c10e19a"/>
+					<box>
+						<pen lineWidth="0.0" lineStyle="Solid"/>
+						<topPen lineWidth="0.0" lineStyle="Solid"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{authorizationScopeOtherStr}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="121" y="354" width="216" height="15" uuid="5b2a70ac-381c-439f-9599-b512cc323080">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Thực hiện toàn bộ các giao dịch liên quan.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="383" width="102" height="15" uuid="10c95036-43d3-4a40-a78d-6d4f18d5be25">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Thời gian ủy quyền:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="107" y="386" width="8" height="8" uuid="1bbd7453-a680-4d86-8815-5f44ce1974ee">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{authorizationPeriodByDate} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="383" width="297" height="15" uuid="b692dd74-1816-4365-a7d7-ac8b68285a1d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Từ ngày ....../....../.......... đến ngày ...../...../..........]]></text>
+				</staticText>
+				<image>
+					<reportElement x="107" y="401" width="8" height="8" uuid="cf47e0fd-68a8-4b74-87c1-294ec5f9fe16">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{authorizationPeriodWaitUntilDone} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="398" width="297" height="15" uuid="d1a82c54-6c03-447d-a738-9b82657ca510">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Cho đến khi thực hiện xong công việc được ủy quyền.]]></text>
+				</staticText>
+				<image>
+					<reportElement x="107" y="416" width="8" height="8" uuid="9fc50942-2a45-42a0-aff1-ee34679594f0">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{authorizationPeriodFromDate} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="120" y="412" width="297" height="15" uuid="e3b6d21e-e8b5-4501-9fa0-4892725511a9">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Từ ngày …../…../……… đến khi có thay thế/bổ sung.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="431" width="128" height="15" forecolor="#263B92" uuid="5ac97356-2373-4f8b-afa3-5741963760cd">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[VI. Thông tin FATCA]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="448" width="30" height="15" uuid="4e2b14ce-5c17-4f10-8df9-9ffdf29ee294">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[1. Tôi]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="45" y="448" width="17" height="15" uuid="0a3cb3b9-c456-4664-a369-5f529e615852">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Có]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="62" y="448" width="195" height="15" uuid="f0bdeb41-0b9f-46da-9fe3-5e381adb9ba1">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[(vui lòng khai báo bổ sung mẫu biểu W9)/]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="462" width="30" height="15" uuid="ebc61845-8312-48a2-b7c5-7f44d33c2ca3">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[2. Tôi]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="45" y="463" width="17" height="15" uuid="cb0d2c27-61a3-4b05-b8cb-f059ec203d1d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Có]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="62" y="463" width="195" height="15" uuid="f18e63c8-2877-4a43-8e23-9c485b2aea66">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[(vui lòng khai báo bổ sung mẫu biểu W8)/]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="272" y="448" width="256" height="15" uuid="9a496d4c-bc52-4d44-80be-96c587ba9220">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Không là công dân Mỹ hoặc đối tượng cư trú tại Mỹ.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="269" y="462" width="296" height="15" uuid="799e83ac-03ea-44bc-80fc-8304c873410a">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Không (i) có thẻ xanh do Chính phủ Mỹ cấp hoặc (ii) sinh tại]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="477" width="564" height="15" uuid="62cea8d3-63d8-4b8d-9a49-68ff88f2964b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[Mỹ hoặc (iii) có địa chỉ/số điện thoại tại Mỹ hoặc (iv) thường xuyên thanh toán đến một địa chỉ/tài khoản Mỹ hoặc (v)]]></text>
+				</staticText>
+				<image>
+					<reportElement x="31" y="451" width="8" height="8" uuid="13713d98-4406-4c93-b957-63158fc625cc">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{fatCa1} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="258" y="451" width="8" height="8" uuid="1e9b1123-af76-433a-a106-36d5a82f1977">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{fatCa1} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="31" y="466" width="8" height="8" uuid="46b0c801-b9c2-4ec6-97d4-59a34a8f3c44">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{fatCa2} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<image>
+					<reportElement x="258" y="466" width="8" height="8" uuid="c0589a3a-e4be-49e4-9829-4fbe2767e221">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{fatCa2} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="0" y="492" width="565" height="15" uuid="124b3b26-5e90-4f42-9a41-1da61a3da314">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[được ủy quyền hoặc cấp thẩm quyền ký còn hiệu lực cho một đối tượng có địa chỉ tại Mỹ.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="510" width="183" height="15" forecolor="#263B92" uuid="787d4598-b546-44cf-9854-60a8a839a11e">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[VII. Xác nhận của Khách hàng]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="527" width="17" height="15" uuid="f250cc74-4470-4283-a98a-aa97a4deeb1f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[1.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="527" width="548" height="15" uuid="b77df6a9-2f7a-47fd-aa79-156b4eb3054b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi cam kết các thông tin trên đây là chính xác, cập nhật, đầy đủ và hoàn toàn chịu trách nhiệm về các]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="542" width="117" height="15" uuid="598e5dce-b97f-48ad-a4d6-227c0d57cdd8">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[thông tin đã cung cấp.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="558" width="17" height="15" uuid="6261e272-9486-451e-88e0-1c21399618aa">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[2.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="558" width="68" height="15" uuid="c89c8921-34d7-4fb9-b8e7-385e16ebf504">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi]]></text>
+				</staticText>
+				<image>
+					<reportElement x="85" y="561" width="8" height="8" uuid="9f1b8fe1-faac-4bd4-99a5-fd343b7aa7f8">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{confirmation2} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="96" y="558" width="40" height="15" uuid="1576272e-23c5-4f1e-a00d-b72e6ee86d66">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Đồng ý/]]></text>
+				</staticText>
+				<image>
+					<reportElement x="135" y="561" width="8" height="8" uuid="9b2ee9e9-d351-4be2-b20f-d1a59a388621">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$F{confirmation2} == false ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="144" y="558" width="421" height="15" uuid="2dbed476-e8dd-46ae-82fe-33b92f3f0275">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[Không đồng ý tự động bán và LienVietPostBank được tự động mua các khoản ngoại tệ từ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="573" width="548" height="15" uuid="fa88b867-54a9-4d32-bcd4-ed65af780a4e">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[nước ngoài chuyển về (các bên thỏa thuận rằng đây là quyền và không phải là nghĩa vụ của LienVietPostBank) và ghi]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="588" width="548" height="15" uuid="4555f3cf-119a-4b81-97c4-af4efbf67b10">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[có vào TK VNĐ của tôi/chúng tôi mở tại LienVietPostBank theo tỷ giá mua chuyển khoản6 của LienVietPostBank]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="603" width="123" height="15" uuid="fce52fd2-1cfa-4385-9347-8cff8936ba40">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[tại thời điểm chuyển đổi7.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="618" width="17" height="15" uuid="aa100145-eab3-4b1e-9b78-236b7cde7a07">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[3.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="618" width="547" height="15" uuid="bd01bfa0-b4b5-4d35-9b1d-319f8d956854">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Các giao dịch thu, chi trên tài khoản của tôi/chúng tôi là hợp pháp, phù hợp với quy định của pháp luật Việt Nam]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="633" width="546" height="15" uuid="e228d4a9-8e30-4d32-a039-e63596d3187f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi cam kết sẽ xuất trình các hồ sơ, chứng từ liên quan đến các giao dịch phát sinh trên tài khoản bất cứ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="648" width="183" height="15" uuid="f72a1822-98b8-4a37-b1d3-0aca0cfcf2cb">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[khi nào LienVietPostBank yêu cầu.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="664" width="349" height="15" uuid="2681a156-0bd5-40a7-910f-8989b5e636f6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi xác nhận đã đọc, hiểu rõ và chấp thuận các nội dung theo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="678" width="182" height="15" uuid="1f331953-a4a7-41e2-b871-98424011bc26">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[lý thông tin tài khoản thanh toán”]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="693" width="37" height="15" uuid="6106f0d6-7ed1-478a-b639-089b5b8e0443">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[website]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="708" width="541" height="15" uuid="1aa486c9-cf1d-427b-9112-a03ef2a79032">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[định Pháp luật hiện hành của Việt Nam. Điều khoản sử dụng quy định rõ ràng quyền, nghĩa vụ giữa tôi/chúng tôi và]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="723" width="541" height="15" uuid="15088d4d-fa1e-4aa3-b2aa-8ed5badf0232">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.9"/>
+					</textElement>
+					<text><![CDATA[LienVietPostBank, là một bộ phận không thể tách rời của “Đề nghị kiêm hợp đồng mở tài khoản và sử dụng dịch]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="738" width="158" height="15" uuid="edd239fd-9c74-438f-8f67-7d3658506bce">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[vụ tài khoản” của tôi/chúng tôi.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="754" width="540" height="15" uuid="a5090227-4da6-48f3-9b1c-eea12a22e021">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.7"/>
+					</textElement>
+					<text><![CDATA[Trong trường hợp có sự thay đổi bất kỳ điều khoản nào trong Điều khoản sử dụng, LienVietPostBank sẽ thông báo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="768" width="109" height="15" uuid="1cac8bf3-0f5d-4f33-8c3e-7fb59e34e186">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[công khai trên website]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="782" width="540" height="15" uuid="ba14c839-5001-4ac3-95e7-2e8a2a914c3e">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="11.5"/>
+						<paragraph lineSpacingSize="1.0"/>
+					</textElement>
+					<text><![CDATA[địa chỉ giao dịch của LienVietPostBank. Nếu tôi/chúng tôi vẫn tiếp tục thực hiện các giao dịch tại LienVietPostBank]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="797" width="541" height="15" uuid="f8eafbfd-0209-4509-b4b3-e9fbdd6ef8d8">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[sau thời gian thông báo thì mặc nhiên được coi là tôi/chúng tôi đồng ý V/v thay đổi điều khoản sử dụng nêu trên.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="664" width="17" height="15" uuid="e01994ec-6efd-4703-af02-d707f8c74989">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[4.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="366" y="664" width="199" height="15" uuid="d86297dd-0416-42f1-95be-44e2f5005035">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[“Điều khoản về mở, sử dụng và quản]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="189" y="678" width="376" height="15" uuid="c02f7e81-0b41-45a8-96e3-2aa0fc256571">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[(sau đây gọi tắt là Điều khoản sử dụng) được LienVietPostBank công bố trên]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="56" y="693" width="175" height="15" uuid="615861f6-791f-43a9-88b7-29a71b72071c">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[http://www.lienvietpostbank.com.vn, ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="233" y="693" width="329" height="15" uuid="acc95985-247c-430a-b679-952e31d993af">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Điều khoản và điều kiện về tuân thủ đạo luật FATCA cũng như quy]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="754" width="17" height="15" uuid="a9fc085d-5b80-4e78-a175-c76d5bb2118d">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[5.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="129" y="767" width="167" height="15" uuid="fe1f576a-b33c-4e21-969c-6732ef832b87">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true" isItalic="true"/>
+					</textElement>
+					<text><![CDATA[http://www.lienvietpostbank.com.vn,]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="296" y="767" width="262" height="15" uuid="797319f7-0b35-4176-9c1a-d29bc031474b">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[các phương tiện thông tin đại chúng hoặc niêm yết tại]]></text>
+				</staticText>
+				<frame>
+					<reportElement mode="Opaque" x="-20" y="0" width="595" height="15" backcolor="#F47321" uuid="07bcfd6c-dccc-4a93-b191-7e848fdcf2e1">
+						<property name="com.jaspersoft.studio.unit.y" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+				</frame>
 			</band>
 			<band height="827">
+				<staticText>
+					<reportElement x="0" y="30" width="17" height="15" uuid="c398a13a-6e3d-470b-a42f-8f39ab04f1af">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[6.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="30" width="415" height="15" uuid="753277c7-c03c-4f27-a6ca-097ee084d73a">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi đồng ý ủy quyền cho LienVietPostBank chủ động trích tiền từ tài khoản số]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="432" y="30" width="132" height="15" uuid="bf2823bf-8ae6-4dbc-a521-7f0f313650fd">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font size="12"/>
+					</textElement>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="45" width="547" height="15" uuid="d7ba775a-cd88-471b-9bb0-2b17f51ea585">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[của tôi/chúng tôi mở tại LienVietPostBank (bao gồm cả số dư tối thiểu) để thanh toán các khoản phí, chi phí và các]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="75" width="547" height="15" uuid="9d537e32-ea5c-4207-8404-b46dd143bf7f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Tôi/Chúng tôi xác nhận chữ ký dưới đây là chữ ký mẫu của mình cho các giao dịch của tôi/chúng tôi tại]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="60" width="93" height="15" uuid="31dfca5d-88c5-4e67-b29a-e2008ade42e5">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[nghĩa vụ phát sinh.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="75" width="17" height="15" uuid="d4ae4f9d-4e9a-4ffb-8c8b-01f6508a633f">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[7.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="90" width="93" height="15" uuid="90ce597b-2964-4b57-ba1b-e0cb4e0348a3">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[LienVietPostBank.]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="364" y="105" width="200" height="15" uuid="1bd44093-11db-4d38-8abc-da834ebbc132">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement>
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA["............................, ngày " + new SimpleDateFormat("dd/MM/yyyy").format($F{date})]]></textFieldExpression>
+				</textField>
 				<frame>
-					<reportElement mode="Opaque" x="-20" y="0" width="595" height="15" backcolor="#F47321" uuid="5029e816-f983-4d68-ba3c-6ef4961d7d5c">
+					<reportElement x="0" y="119" width="554" height="160" uuid="7d57084d-c0ac-4f96-9d71-39be5c3e9a0c"/>
+					<frame>
+						<reportElement x="0" y="0" width="262" height="37" uuid="00e60114-3eec-4f1c-9885-3914acd93c8d">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5"/>
+						</box>
+						<staticText>
+							<reportElement x="0" y="1" width="262" height="15" uuid="280b39d0-2e24-4e77-a6e5-5463b0c6876c">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12" isBold="true"/>
+							</textElement>
+							<text><![CDATA[Chủ tài khoản]]></text>
+						</staticText>
+					</frame>
+					<frame>
+						<reportElement x="0" y="37" width="138" height="123" uuid="ff084e2c-b25a-43c1-9106-3c73caf48e2f">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5"/>
+						</box>
+						<staticText>
+							<reportElement x="0" y="16" width="138" height="15" uuid="ac9579c9-21ee-4495-bb5c-c85a4ef89d34">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="11.2" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="0" width="138" height="15" uuid="2c3564cc-e655-44db-a8fe-bcb5ca134938">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Chữ ký 1]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="395" width="40" height="13" uuid="4677806d-401a-47b0-b719-02e6253276ce">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[Lưu ý:]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="409" width="18" height="13" uuid="f7ac4a19-ab3d-43a3-b642-1588cce40d8a">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="9" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[1.]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="18" y="409" width="18" height="13" uuid="0878a11a-2e7c-493e-b3a8-5d30964d69d5">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="8.9" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[1.]]></text>
+						</staticText>
+					</frame>
+					<frame>
+						<reportElement x="138" y="37" width="124" height="123" uuid="bfe5a777-bf29-49a5-8ee8-4418ef1f13a2">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5"/>
+						</box>
+						<staticText>
+							<reportElement x="0" y="16" width="124" height="15" uuid="e21bf1a0-5fe5-4c85-a538-f8d5a282c2ed">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="11.2" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="0" width="124" height="15" uuid="69202ad4-7a0f-4e94-a181-88e7c92887d6">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Chữ ký 2]]></text>
+						</staticText>
+					</frame>
+					<frame>
+						<reportElement x="262" y="37" width="146" height="123" uuid="a8243085-225c-4df1-ada2-2cad020a6d98">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5"/>
+						</box>
+						<staticText>
+							<reportElement x="0" y="16" width="146" height="15" uuid="4c24450f-b36e-465e-b3aa-264e4a2ef627">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="11.2" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="0" width="146" height="15" uuid="cc3a3ea7-0915-447f-bc09-a1de81ced7e6">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Chữ ký 1]]></text>
+						</staticText>
+					</frame>
+					<frame>
+						<reportElement x="408" y="37" width="146" height="123" uuid="0a606d6b-9575-45a0-b8fa-8854b36c7a20">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<box>
+							<pen lineWidth="0.5"/>
+						</box>
+						<staticText>
+							<reportElement x="0" y="16" width="146" height="15" uuid="ea7064e4-a6f3-4342-979f-9216c18b883c">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="11.2" isItalic="true"/>
+							</textElement>
+							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="0" y="0" width="146" height="15" uuid="8ffe7cdd-0101-41ed-b468-35033de2cea3">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Chữ ký 2]]></text>
+						</staticText>
+					</frame>
+					<frame>
+						<reportElement x="262" y="0" width="292" height="37" uuid="95b0ddfb-bca8-4a1a-8f62-42a7aaed8518"/>
+						<box>
+							<pen lineWidth="0.5"/>
+							<leftPen lineWidth="0.0" lineColor="#FFFFFF"/>
+						</box>
+						<staticText>
+							<reportElement x="2" y="1" width="289" height="15" uuid="0944d210-f40f-4a2c-8da9-fedd6d5f4de8">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<textElement textAlignment="Center" verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12" isBold="true"/>
+							</textElement>
+							<text><![CDATA[Đồng sở hữu/Người giám hộ/Người được ủy quyền]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="17" y="21" width="63" height="15" uuid="3efd0358-0bf8-408d-bb0e-b39e1deed52e">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Đồng sở hữu]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="97" y="21" width="73" height="15" uuid="468e75a0-6c00-473d-bd69-c5c3942a2a2d">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Người giám hộ]]></text>
+						</staticText>
+						<staticText>
+							<reportElement x="186" y="21" width="106" height="15" uuid="6d53889a-2972-4c94-b763-e9b74a6693c6">
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</reportElement>
+							<textElement verticalAlignment="Middle">
+								<font fontName="Times New Roman" size="12"/>
+							</textElement>
+							<text><![CDATA[Người được ủy quyền]]></text>
+						</staticText>
+						<image>
+							<reportElement x="4" y="25" width="8" height="8" uuid="633ce894-01f8-4845-8bbf-d6bb42fa60ae">
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.width" value="px"/>
+								<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							</reportElement>
+							<imageExpression><![CDATA[$F{theCoOwner} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+						</image>
+						<image>
+							<reportElement x="83" y="25" width="8" height="8" uuid="755ded8b-e5cd-43d6-90ef-3bdba04c371a">
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+							</reportElement>
+							<imageExpression><![CDATA[$F{theGuardian} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+						</image>
+						<image>
+							<reportElement x="173" y="25" width="8" height="8" uuid="c6863953-099a-4e39-ae5d-bdd4088f33e6">
+								<property name="com.jaspersoft.studio.unit.y" value="px"/>
+								<property name="com.jaspersoft.studio.unit.x" value="px"/>
+							</reportElement>
+							<imageExpression><![CDATA[$F{theAuthorizedPerson} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
+						</image>
+					</frame>
+				</frame>
+				<staticText>
+					<reportElement x="0" y="282" width="170" height="15" forecolor="#263B92" uuid="913783f2-131f-42a4-9c15-b5afe6b73371">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[VIII. Dành cho ngân hàng]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="302" width="70" height="15" uuid="b4428eef-152c-4429-be9b-e86f3aba39ea">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Mã nhân viên:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="317" width="64" height="15" uuid="deae6386-b7c6-483d-8c3d-5508755e0712">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Số TK VNĐ:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="332" width="72" height="15" uuid="97b131ac-a006-464d-9ce9-3553667a8111">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Số TK ngoại tệ ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="346" width="75" height="15" uuid="8902a726-5144-4afd-8a0d-ad332d679ff1">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Số TK Ví Việt:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="72" y="332" width="35" height="15" uuid="0d4e4dc7-5ea6-4665-9e9b-8ec2f894ed66">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font size="12"/>
+					</textElement>
+					<text><![CDATA[(……):]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="362" width="96" height="15" uuid="fa8a5f4b-6819-418b-939d-7a470c9efe56">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<text><![CDATA[Ngày mở tài khoản:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="70" y="302" width="484" height="15" uuid="4a24b92b-27d7-4a39-9e05-63bd0d8978ea"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{employeeId}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="64" y="317" width="490" height="15" uuid="aba7e90f-f353-4fe0-8b2c-f5e65d9de767"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{accountNumberVND}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="75" y="346" width="479" height="15" uuid="d3d78bb1-7ec7-42de-9033-8a08d0be9509"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{accountNumberViViet}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="96" y="362" width="458" height="15" uuid="59fe908a-0bec-464b-ad36-27fa09dd2513"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{accountOpeningDate}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="107" y="332" width="447" height="15" uuid="c40c353b-3d6f-44f6-a784-3fd5cf8e3ddf"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Times New Roman" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{accountNumberForeign}]]></textFieldExpression>
+				</textField>
+				<frame>
+					<reportElement x="0" y="379" width="175" height="100" uuid="31b64d80-b00e-4182-a406-5cf98d18a5e7">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement x="0" y="0" width="175" height="15" uuid="b8af04c2-fec4-44ad-85eb-a7d3e90bfb6b">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="12" isBold="true"/>
+						</textElement>
+						<text><![CDATA[Giao dịch viên]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="15" width="175" height="15" uuid="a969eab9-5eaa-4c4d-bd43-85282d640e48">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="11.5" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[(ký, ghi rõ họ tên)]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="199" width="18" height="13" uuid="5a95cbb7-2273-4452-88c3-b4a6e29f177a">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[2.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="225" width="18" height="13" uuid="28073a05-c043-4973-b94b-f14a8ab7e9cb">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[3.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="251" width="18" height="13" uuid="78dc6962-70cd-4f8c-a85d-28a2317ee4ee">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[4.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="264" width="18" height="13" uuid="679d16cd-77f1-4e79-916b-72da427f0f69">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[5.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="316" width="18" height="13" uuid="e9f2b139-c7c5-4766-b479-b727eb9dffb8">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[6.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="329" width="18" height="13" uuid="be87e305-520a-4bdd-9f75-756d2793f83d">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[7.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="355" width="18" height="13" uuid="ab2024e9-4083-422d-bbce-8cefee4e4bfb">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[8.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="368" width="18" height="13" uuid="b79a3e31-79f7-483b-86fe-38e93c36711b">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[9.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="381" width="18" height="13" uuid="b1bf09e2-e327-4bb0-81de-a7e0acd876f1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[10.]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="407" width="18" height="13" uuid="264c16b9-f509-4921-adcb-794407e2633f">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="9" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[11.]]></text>
+					</staticText>
+				</frame>
+				<frame>
+					<reportElement x="175" y="379" width="175" height="100" uuid="b14ff821-b738-4ee5-9266-1fdeb2fa66a6">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement x="0" y="15" width="175" height="15" uuid="ecc12e96-c50c-42e4-91d4-ab5d9caf0417">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="11.5" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[(ký, ghi rõ họ tên)]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="0" width="175" height="15" uuid="d870fb3f-2f5b-4a15-93fa-0ace1020b3ef">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="12" isBold="true"/>
+						</textElement>
+						<text><![CDATA[Kiểm soát viên]]></text>
+					</staticText>
+				</frame>
+				<frame>
+					<reportElement x="350" y="379" width="204" height="100" uuid="86da9d85-18e0-4012-8040-9e1d6d0d8a67">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<staticText>
+						<reportElement x="0" y="15" width="204" height="15" uuid="e0dadce8-ed4e-4118-bbe6-a4d32e40e5ea">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="11.5" isItalic="true"/>
+						</textElement>
+						<text><![CDATA[(Ký, ghi rõ họ tên và đóng dấu)]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="0" y="0" width="204" height="15" uuid="2f9f0d99-ed1e-4fab-9081-211a91b3cd1a">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						</reportElement>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Times New Roman" size="12" isBold="true"/>
+						</textElement>
+						<text><![CDATA[Trưởng Đơn vị Kinh doanh]]></text>
+					</staticText>
+				</frame>
+				<frame>
+					<reportElement mode="Opaque" x="-20" y="0" width="595" height="15" backcolor="#F47321" uuid="56d03717-3756-4b45-b23f-e640424fe590">
 						<property name="com.jaspersoft.studio.unit.y" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.x" value="px"/>
@@ -2788,13 +4729,6 @@
 	<pageFooter>
 		<band height="15">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<frame>
-				<reportElement mode="Opaque" x="-20" y="0" width="595" height="15" backcolor="#263B92" uuid="cf493ef2-39b1-405d-bf0e-85313921df76">
-					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-			</frame>
 		</band>
 	</pageFooter>
 </jasperReport>
