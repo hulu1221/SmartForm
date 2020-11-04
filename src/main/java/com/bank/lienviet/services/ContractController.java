@@ -28,7 +28,7 @@ public class ContractController {
     }
 
     public String exportReport(Contract contract) throws FileNotFoundException, JRException {
-        File file = ResourceUtils.getFile("classpath:DeNghiKiemHopDong.jrxml");
+        File file = ResourceUtils.getFile("classpath:HopDongPro.jrxml");
         String path = "D:\\DEV\\printed reports\\";
 
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
@@ -44,6 +44,7 @@ public class ContractController {
 
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, new JRBeanCollectionDataSource(contractList));
         JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//DeNghiKiemHopDong.pdf");
+//        JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//HopDongPro.pdf");
         return "printed document path: " + path;
     }
 }
