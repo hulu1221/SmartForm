@@ -32,9 +32,9 @@ public class ContractController {
         String path = "D:\\DEV\\printed reports\\";
 
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
-        System.out.println(contract.getCoName());
 
         Map<String, Object> parameters = new HashMap<String, Object>();
+
         parameters.put("formId", "CN/2019-01/MBGD");
         parameters.put("formName", "ĐỀ NGHỊ KIÊM HỢP ĐỒNG\n" +"MỞ TÀI KHOẢN VÀ SỬ DỤNG DỊCH VỤ TÀI KHOẢN");
         parameters.put("formInfor", "(DÀNH CHO KHÁCH HÀNG CÁ NHÂN)");
@@ -43,8 +43,6 @@ public class ContractController {
         contractList.add(contract);
 
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, new JRBeanCollectionDataSource(contractList));
-        System.out.println(new JRBeanCollectionDataSource(contractList));
-
         JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//DeNghiKiemHopDong.pdf");
         return "printed document path: " + path;
     }

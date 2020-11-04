@@ -13,13 +13,14 @@ public class ContractConstructor {
         contract.setContractId("123456");
         contract.setCIF("111222");
         contract.setBankAgency("Tân Định");
+        contract.setDate(new Timestamp(System.currentTimeMillis()));
 
         // I Thông tin chủ tài khoản
         contract.setCustomerName("Nguyễn Văn Hưởng");
         contract.setCustomerGender(true);
         contract.setCustomerBirthday(new Timestamp(System.currentTimeMillis()));
         contract.setCustomerBirthPlace("Quang Binh");
-        contract.setCustomerResident(false);
+        contract.setCustomerResident(true);
         contract.setCustomerNationality("Việt Nam");
         contract.setCustomerVerificationPapers("CMND");
         contract.setCustomerVerificationPaperDate(new Timestamp(System.currentTimeMillis()));
@@ -71,17 +72,50 @@ public class ContractConstructor {
 
         // III Đăng ký các dịch vụ ngân hàng số
         List<DigitalBanking> listAcc = new ArrayList<>();
-        DigitalBanking newAcc1 = new DigitalBanking(true, "default account 1", true, false, false, "other debit card",
-                false, false, true, false, "other class", "123456789", true, false, "receiving card place", "security question", "answer",
-                true, true, "mobileBankingPhoneReg1", "mobileBankingPhoneReg2", true, true, false, false, true, "bankPlusPhoneReg",
-                true, true, true, true, "email@email.com", true, true, true, "0123456789");
+        DigitalBanking newAcc1 = new DigitalBanking(
+                true,
+                "default account 1",
+                true,
+                false,
+                false,
+                "other debit card",
+                false,
+                false,
+                true,
+                false,
+                "other class",
+                "NGUYEN VAN HUONG 12345678",
+                true,
+                false,
+                "receiving card place",
+                "security question",
+                "answer",
+                true,
+                true,
+                "mobileBankingPhoneReg1",
+                "mobileBankingPhoneReg2",
+                true,
+                true,
+                false,
+                false,
+                true,
+                "bankPlusPhoneReg",
+                true,
+                true,
+                true,
+                true,
+                "email@email.com",
+                true,
+                true,
+                true,
+                "0123456789");
         DigitalBanking newAcc2 = new DigitalBanking(true, "default account 2", true, false, false, "other debit card",
                 false, false, true, false, "other class", "123456789", true, false, "receiving card place", "security question", "answer",
                 true, true, "mobileBankingPhoneReg1", "mobileBankingPhoneReg2", true, true, false, false, true, "bankPlusPhoneReg",
                 true, true, true, true, "email@email.com", true, true, true, "0123456789");
 
         listAcc.add(newAcc1);
-        listAcc.add(newAcc2);
+//        listAcc.add(newAcc2);
         JRBeanCollectionDataSource accDataSource = new JRBeanCollectionDataSource(listAcc);
         contract.setDigitalBanking(accDataSource);
 
@@ -91,8 +125,8 @@ public class ContractConstructor {
 
         // VI Thông tin Người đồng sở hữu/Người giám hộ/Người được ủy quyền
         contract.setCoOwnerWithAccountHolder(true);
-        contract.setGuardianOfAccountHolder(true);
-        contract.setPersonAuthorizedByAccountHolder(true);
+        contract.setGuardianOfAccountHolder(false);
+        contract.setPersonAuthorizedByAccountHolder(false);
         contract.setCoName("co owner name");
         contract.setCoGender(false);
         contract.setCoBirthday(new Timestamp(System.currentTimeMillis()));
@@ -124,13 +158,13 @@ public class ContractConstructor {
         contract.setAuthorizationScopeOther(true);
         contract.setAuthorizationScopeOtherStr("phạm vi ủy quyền khác");
         contract.setAuthorizationPeriodByDate(true);
-        contract.setAuthorizationPeriodWaitUntilDone(true);
-        contract.setAuthorizationPeriodFromDate(true);
+        contract.setAuthorizationPeriodWaitUntilDone(false);
+        contract.setAuthorizationPeriodFromDate(false);
 
 
         // VI Thông tin FATCA
-        contract.setFatCa1(true);
-        contract.setFatCa2(true);
+        contract.setFatCa1(false);
+        contract.setFatCa2(false);
 
         // VII Xác nhận của khách hàng
         contract.setConfirmation2(true);

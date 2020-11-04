@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
 
 /**
  * {All component of a contract}
@@ -29,5 +30,7 @@ public class Contract extends AccountHolder implements Serializable {
     private String CIF;
 
     private String bankAgency;
+
+    private Timestamp date;
 }
 
