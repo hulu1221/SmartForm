@@ -2319,6 +2319,10 @@
 					</textElement>
 					<textFieldExpression><![CDATA["............................, ngày " + new SimpleDateFormat("dd/MM/yyyy").format($F{date})]]></textFieldExpression>
 				</textField>
+				<staticText>
+					<reportElement x="133" y="519" width="96" height="20" uuid="c0ab46cf-ef40-4ef7-826a-48774067d0fe"/>
+					<text><![CDATA[test position]]></text>
+				</staticText>
 			</band>
 		</groupFooter>
 	</group>

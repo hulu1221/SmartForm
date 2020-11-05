@@ -75,6 +75,8 @@ public class DigitalBanking {
 
     private Boolean securityMethodPhoneNumber;
 
+    private String securityMethodPhoneNumberStr;
+
     private Boolean securityMethodTokenKey;
 
     private Boolean viViet;

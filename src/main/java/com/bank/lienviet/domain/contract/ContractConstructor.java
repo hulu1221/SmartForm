@@ -72,6 +72,9 @@ public class ContractConstructor {
 
         // III Đăng ký các dịch vụ ngân hàng số
         List<DigitalBanking> listAcc = new ArrayList<>();
+
+        List<DigitalBanking> listAcc1 = new ArrayList<>();
+        List<DigitalBanking> listAcc2 = new ArrayList<>();
         DigitalBanking newAcc1 = new DigitalBanking(
                 true,
                 "default account 1",
@@ -84,7 +87,7 @@ public class ContractConstructor {
                 true,
                 false,
                 "other class",
-                "NGUYEN VAN HUONG 12345678",
+                "12345678",
                 true,
                 false,
                 "receiving card place",
@@ -106,19 +109,93 @@ public class ContractConstructor {
                 true,
                 "email@email.com",
                 true,
+                "0355848043",
                 true,
                 true,
                 "0123456789");
-        DigitalBanking newAcc2 = new DigitalBanking(true, "default account 2", true, false, false, "other debit card",
-                false, false, true, false, "other class", "123456789", true, false, "receiving card place", "security question", "answer",
-                true, true, "mobileBankingPhoneReg1", "mobileBankingPhoneReg2", true, true, false, false, true, "bankPlusPhoneReg",
-                true, true, true, true, "email@email.com", true, true, true, "0123456789");
-
+        DigitalBanking newAcc2 = new DigitalBanking(
+                true,
+                "default account 2",
+                true,
+                false,
+                false,
+                "other debit card",
+                false,
+                false,
+                true,
+                false,
+                "other class",
+                "NGUYEN VAN HUONG 87654321",
+                true,
+                false,
+                "receiving card place",
+                "security question",
+                "answer",
+                true,
+                true,
+                "mobileBankingPhoneReg1",
+                "mobileBankingPhoneReg2",
+                true,
+                true,
+                false,
+                false,
+                true,
+                "bankPlusPhoneReg",
+                true,
+                true,
+                true,
+                true,
+                "email@email.com",
+                true,
+                "0355848044",
+                true,
+                true,
+                "0123456789");
+        DigitalBanking newAcc3 = new DigitalBanking(
+                true,
+                "default account 3",
+                true,
+                false,
+                false,
+                "other debit card",
+                false,
+                false,
+                true,
+                false,
+                "other class",
+                "NGUYEN VAN HUONG 87654321",
+                true,
+                false,
+                "receiving card place",
+                "security question",
+                "answer",
+                true,
+                true,
+                "mobileBankingPhoneReg1",
+                "mobileBankingPhoneReg2",
+                true,
+                true,
+                false,
+                false,
+                true,
+                "bankPlusPhoneReg",
+                true,
+                true,
+                true,
+                true,
+                "email@email.com",
+                true,
+                "0355848045",
+                true,
+                true,
+                "0123456789");
         listAcc.add(newAcc1);
-//        listAcc.add(newAcc2);
-        JRBeanCollectionDataSource accDataSource = new JRBeanCollectionDataSource(listAcc);
-        contract.setDigitalBanking(accDataSource);
+        listAcc.add(newAcc2);
+        listAcc.add(newAcc3);
 
+        JRBeanCollectionDataSource accDataSource = new JRBeanCollectionDataSource(listAcc);
+
+        contract.setDigitalBanking(accDataSource);
         // IV Nhận ủy thác của ủy thác nước ngoài
         contract.setForeignTrust1(true);
         contract.setForeignTrust2(true);
@@ -158,8 +235,11 @@ public class ContractConstructor {
         contract.setAuthorizationScopeOther(true);
         contract.setAuthorizationScopeOtherStr("phạm vi ủy quyền khác");
         contract.setAuthorizationPeriodByDate(true);
+        contract.setAuthorizationPeriodByDateBegin(new Timestamp(System.currentTimeMillis()));
+        contract.setAuthorizationPeriodByDateEnd(new Timestamp(System.currentTimeMillis()));
         contract.setAuthorizationPeriodWaitUntilDone(false);
         contract.setAuthorizationPeriodFromDate(false);
+        contract.setAuthorizationPeriodFromDateBegin(new Timestamp(System.currentTimeMillis()));
 
 
         // VI Thông tin FATCA

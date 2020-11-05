@@ -44,7 +44,6 @@ public class ContractController {
 
         JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, new JRBeanCollectionDataSource(contractList));
         JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//DeNghiKiemHopDong.pdf");
-//        JasperExportManager.exportReportToPdfFile(jasperPrint, path +  "//HopDongPro.pdf");
         return "printed document path: " + path;
     }
 }

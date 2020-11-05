@@ -75,7 +75,13 @@ public class CoOwnerGuardianAuthorizedPerson extends FATCA {
 
     private Boolean authorizationPeriodByDate;
 
+    private Timestamp authorizationPeriodByDateBegin;
+
+    private Timestamp authorizationPeriodByDateEnd;
+
     private Boolean authorizationPeriodWaitUntilDone;
+
+    private Timestamp authorizationPeriodFromDateBegin;
 
     private Boolean authorizationPeriodFromDate;
 
