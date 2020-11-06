@@ -130,10 +130,10 @@
 		<field name="currencyTypeOtherStr" class="java.lang.String"/>
 	</subDataset>
 	<parameter name="box_unchecked" class="java.lang.String">
-		<defaultValueExpression><![CDATA["C:/Users/LUA/Desktop/unchecked.png"]]></defaultValueExpression>
+		<defaultValueExpression><![CDATA["unchecked.png"]]></defaultValueExpression>
 	</parameter>
 	<parameter name="box_checked" class="java.lang.String">
-		<defaultValueExpression><![CDATA["C:/Users/LUA/Desktop/checked.png"]]></defaultValueExpression>
+		<defaultValueExpression><![CDATA["checked.png"]]></defaultValueExpression>
 	</parameter>
 	<parameter name="formId" class="java.lang.String"/>
 	<parameter name="formName" class="java.lang.String"/>
@@ -212,7 +212,7 @@
 	<field name="coOwnerListSize" class="java.lang.Integer"/>
 	<group name="Group2">
 		<groupFooter>
-			<band height="382">
+			<band height="735">
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
 					<reportElement x="0" y="0" width="128" height="15" forecolor="#263B92" uuid="5ac97356-2373-4f8b-afa3-5741963760cd">
@@ -723,11 +723,8 @@
 					</textElement>
 					<text><![CDATA[7]]></text>
 				</staticText>
-			</band>
-			<band height="812">
-				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<staticText>
-					<reportElement x="0" y="15" width="17" height="15" uuid="c398a13a-6e3d-470b-a42f-8f39ab04f1af">
+					<reportElement x="0" y="385" width="17" height="15" uuid="ded6c60d-e3a2-46a5-9619-37545ae92735">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -737,7 +734,7 @@
 					<text><![CDATA[6.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="17" y="15" width="426" height="15" uuid="753277c7-c03c-4f27-a6ca-097ee084d73a">
+					<reportElement x="17" y="385" width="426" height="15" uuid="d7bcc7c6-588c-4d79-8270-19d74ddaa0be">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -747,7 +744,7 @@
 					<text><![CDATA[Tôi/Chúng tôi đồng ý ủy quyền cho LienVietPostBank chủ động trích tiền từ tài khoản số]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="17" y="30" width="547" height="15" uuid="d7ba775a-cd88-471b-9bb0-2b17f51ea585">
+					<reportElement x="17" y="400" width="547" height="15" uuid="907f3209-e957-42d1-84bf-22cf8b08688e">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -757,7 +754,7 @@
 					<text><![CDATA[của tôi/chúng tôi mở tại LienVietPostBank (bao gồm cả số dư tối thiểu) để thanh toán các khoản phí, chi phí và các]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="17" y="60" width="547" height="15" uuid="9d537e32-ea5c-4207-8404-b46dd143bf7f">
+					<reportElement x="17" y="430" width="547" height="15" uuid="0870a7cd-aa91-45cd-9d70-1b7970548137">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.tabStopWidth" value="px"/>
@@ -771,7 +768,7 @@
 					<text><![CDATA[Tôi/Chúng tôi xác nhận chữ ký dưới đây là chữ ký mẫu của mình cho các giao dịch của tôi/chúng tôi tại]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="17" y="45" width="93" height="15" uuid="31dfca5d-88c5-4e67-b29a-e2008ade42e5">
+					<reportElement x="17" y="415" width="93" height="15" uuid="c5c8fbf7-4e73-4872-95f4-94195886f86d">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -781,7 +778,7 @@
 					<text><![CDATA[nghĩa vụ phát sinh.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="60" width="17" height="15" uuid="d4ae4f9d-4e9a-4ffb-8c8b-01f6508a633f">
+					<reportElement x="0" y="430" width="17" height="15" uuid="5301fe10-089d-4dfc-8399-1b9cb003aaf5">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -791,7 +788,7 @@
 					<text><![CDATA[7.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="17" y="75" width="93" height="15" uuid="90ce597b-2964-4b57-ba1b-e0cb4e0348a3">
+					<reportElement x="17" y="445" width="93" height="15" uuid="61656e9d-39bf-4c0c-9fc6-f6d325bfa69b">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -801,7 +798,7 @@
 					<text><![CDATA[LienVietPostBank.]]></text>
 				</staticText>
 				<textField>
-					<reportElement x="364" y="90" width="200" height="15" uuid="1bd44093-11db-4d38-8abc-da834ebbc132">
+					<reportElement x="364" y="460" width="200" height="15" uuid="ababb508-a773-44fa-8a94-e58e3a49e7de">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -811,9 +808,9 @@
 					<textFieldExpression><![CDATA["............................, ngày " + new SimpleDateFormat("dd/MM/yyyy").format(new java.util.Date())]]></textFieldExpression>
 				</textField>
 				<frame>
-					<reportElement x="0" y="119" width="554" height="160" uuid="7d57084d-c0ac-4f96-9d71-39be5c3e9a0c"/>
+					<reportElement x="0" y="489" width="554" height="160" uuid="5e65e832-0c31-4a25-8444-f310f16f27ed"/>
 					<frame>
-						<reportElement x="0" y="-15" width="262" height="37" uuid="00e60114-3eec-4f1c-9885-3914acd93c8d">
+						<reportElement x="0" y="-15" width="262" height="37" uuid="0659c13a-3d5e-43a6-954a-d0a2a980c509">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						</reportElement>
@@ -821,7 +818,7 @@
 							<pen lineWidth="0.5"/>
 						</box>
 						<staticText>
-							<reportElement x="0" y="1" width="262" height="15" uuid="280b39d0-2e24-4e77-a6e5-5463b0c6876c">
+							<reportElement x="0" y="1" width="262" height="15" uuid="0c374b24-cd02-4c03-9d01-9baab5ad8f06">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -832,14 +829,14 @@
 						</staticText>
 					</frame>
 					<frame>
-						<reportElement x="138" y="22" width="124" height="123" uuid="bfe5a777-bf29-49a5-8ee8-4418ef1f13a2">
+						<reportElement x="138" y="22" width="124" height="123" uuid="b9185a62-de89-4d0d-9764-b90a801eb20d">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						</reportElement>
 						<box>
 							<pen lineWidth="0.5"/>
 						</box>
 						<staticText>
-							<reportElement x="0" y="16" width="124" height="15" uuid="e21bf1a0-5fe5-4c85-a538-f8d5a282c2ed">
+							<reportElement x="0" y="16" width="124" height="15" uuid="f4730bac-fa73-43cc-9c40-100c08b90b81">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -849,7 +846,7 @@
 							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="0" y="0" width="124" height="15" uuid="69202ad4-7a0f-4e94-a181-88e7c92887d6">
+							<reportElement x="0" y="0" width="124" height="15" uuid="2fdbc993-325d-4e65-a5ac-44f4e85dd0a2">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -860,14 +857,14 @@
 						</staticText>
 					</frame>
 					<frame>
-						<reportElement x="262" y="22" width="146" height="123" uuid="a8243085-225c-4df1-ada2-2cad020a6d98">
+						<reportElement x="262" y="22" width="146" height="123" uuid="f693f71c-a3dd-42c4-a3a3-cb657ad7a09f">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						</reportElement>
 						<box>
 							<pen lineWidth="0.5"/>
 						</box>
 						<staticText>
-							<reportElement x="0" y="16" width="146" height="15" uuid="4c24450f-b36e-465e-b3aa-264e4a2ef627">
+							<reportElement x="0" y="16" width="146" height="15" uuid="fba03031-8b9d-4eb1-8dc7-c5d65c78138c">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -877,7 +874,7 @@
 							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="0" y="0" width="146" height="15" uuid="cc3a3ea7-0915-447f-bc09-a1de81ced7e6">
+							<reportElement x="0" y="0" width="146" height="15" uuid="f5c181db-2d01-4982-802b-7ebf9b6e5071">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -888,14 +885,14 @@
 						</staticText>
 					</frame>
 					<frame>
-						<reportElement x="408" y="22" width="146" height="123" uuid="0a606d6b-9575-45a0-b8fa-8854b36c7a20">
+						<reportElement x="408" y="22" width="146" height="123" uuid="dda24f0f-b47a-4b15-82cd-642f60c4a01a">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						</reportElement>
 						<box>
 							<pen lineWidth="0.5"/>
 						</box>
 						<staticText>
-							<reportElement x="0" y="16" width="146" height="15" uuid="ea7064e4-a6f3-4342-979f-9216c18b883c">
+							<reportElement x="0" y="16" width="146" height="15" uuid="6d3c709d-1d9c-44b2-9913-725c8cb9b1d5">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -905,7 +902,7 @@
 							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="0" y="0" width="146" height="15" uuid="8ffe7cdd-0101-41ed-b468-35033de2cea3">
+							<reportElement x="0" y="0" width="146" height="15" uuid="f5bf8597-ede8-4a51-a450-10a74bf21c59">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -916,13 +913,13 @@
 						</staticText>
 					</frame>
 					<frame>
-						<reportElement x="262" y="-15" width="292" height="37" uuid="95b0ddfb-bca8-4a1a-8f62-42a7aaed8518"/>
+						<reportElement x="262" y="-15" width="292" height="37" uuid="a05c6215-8ec8-452c-88f6-e31d3601faaa"/>
 						<box>
 							<pen lineWidth="0.5"/>
 							<leftPen lineWidth="0.0" lineColor="#FFFFFF"/>
 						</box>
 						<staticText>
-							<reportElement x="2" y="1" width="289" height="15" uuid="0944d210-f40f-4a2c-8da9-fedd6d5f4de8">
+							<reportElement x="2" y="1" width="289" height="15" uuid="6b81a177-40b6-4e3c-8aba-6898a71cc397">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -932,7 +929,7 @@
 							<text><![CDATA[Đồng sở hữu/Người giám hộ/Người được ủy quyền]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="17" y="21" width="63" height="15" uuid="3efd0358-0bf8-408d-bb0e-b39e1deed52e">
+							<reportElement x="17" y="21" width="63" height="15" uuid="bb27b66d-eb54-42ca-84d9-b967538e4448">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							</reportElement>
 							<textElement verticalAlignment="Middle">
@@ -941,7 +938,7 @@
 							<text><![CDATA[Đồng sở hữu]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="97" y="21" width="73" height="15" uuid="468e75a0-6c00-473d-bd69-c5c3942a2a2d">
+							<reportElement x="97" y="21" width="73" height="15" uuid="2782aee2-ba84-423e-b761-64a3b94d46d5">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 							</reportElement>
 							<textElement verticalAlignment="Middle">
@@ -950,7 +947,7 @@
 							<text><![CDATA[Người giám hộ]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="186" y="21" width="106" height="15" uuid="6d53889a-2972-4c94-b763-e9b74a6693c6">
+							<reportElement x="186" y="21" width="106" height="15" uuid="34b73263-9821-4ea5-966e-215eb42dff47">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							</reportElement>
@@ -960,7 +957,7 @@
 							<text><![CDATA[Người được ủy quyền]]></text>
 						</staticText>
 						<image>
-							<reportElement x="4" y="25" width="8" height="8" uuid="633ce894-01f8-4845-8bbf-d6bb42fa60ae">
+							<reportElement x="4" y="25" width="8" height="8" uuid="5a637457-aa4d-4b7c-84f8-a33f781efec9">
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
@@ -969,14 +966,14 @@
 							<imageExpression><![CDATA[$F{theCoOwner} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 						</image>
 						<image>
-							<reportElement x="83" y="25" width="8" height="8" uuid="755ded8b-e5cd-43d6-90ef-3bdba04c371a">
+							<reportElement x="83" y="25" width="8" height="8" uuid="979a1509-f799-4b49-be8e-cc641a89828b">
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 							</reportElement>
 							<imageExpression><![CDATA[$F{theGuardian} == true ? $P{box_checked} : $P{box_unchecked}]]></imageExpression>
 						</image>
 						<image>
-							<reportElement x="173" y="25" width="8" height="8" uuid="c6863953-099a-4e39-ae5d-bdd4088f33e6">
+							<reportElement x="173" y="25" width="8" height="8" uuid="3af2b5d1-6496-4c9c-a264-6d7b95b76a22">
 								<property name="com.jaspersoft.studio.unit.y" value="px"/>
 								<property name="com.jaspersoft.studio.unit.x" value="px"/>
 							</reportElement>
@@ -984,14 +981,14 @@
 						</image>
 					</frame>
 					<frame>
-						<reportElement x="0" y="22" width="138" height="123" uuid="363f809a-2170-4a27-a052-8db1aca80891">
+						<reportElement x="0" y="22" width="138" height="123" uuid="41b8a479-3a7b-45cd-8c34-bbd16e603c16">
 							<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						</reportElement>
 						<box>
 							<pen lineWidth="0.5"/>
 						</box>
 						<staticText>
-							<reportElement x="0" y="16" width="138" height="15" uuid="b315bb95-1839-4e8e-922d-b6fa83d65908">
+							<reportElement x="0" y="16" width="138" height="15" uuid="05e65198-5304-4b47-ba0f-4e4210cfdb26">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -1001,7 +998,7 @@
 							<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
 						</staticText>
 						<staticText>
-							<reportElement x="0" y="0" width="138" height="15" uuid="17ffb9cd-d350-47d8-860a-fd30682db1d4">
+							<reportElement x="0" y="0" width="138" height="15" uuid="620d020f-43b9-4221-9adc-9f3080e2211d">
 								<property name="com.jaspersoft.studio.unit.width" value="px"/>
 								<property name="com.jaspersoft.studio.unit.height" value="px"/>
 							</reportElement>
@@ -1013,7 +1010,7 @@
 					</frame>
 				</frame>
 				<staticText>
-					<reportElement x="0" y="267" width="170" height="15" forecolor="#263B92" uuid="913783f2-131f-42a4-9c15-b5afe6b73371">
+					<reportElement x="0" y="637" width="170" height="15" forecolor="#263B92" uuid="db1c4c9e-a6e7-40d9-8610-b768c749dd06">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1022,7 +1019,7 @@
 					<text><![CDATA[VIII. Dành cho ngân hàng]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="287" width="70" height="15" uuid="b4428eef-152c-4429-be9b-e86f3aba39ea">
+					<reportElement x="0" y="657" width="70" height="15" uuid="2feb5fde-36bd-4288-bd53-73b1e764b68f">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -1032,7 +1029,7 @@
 					<text><![CDATA[Mã nhân viên:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="302" width="70" height="15" uuid="deae6386-b7c6-483d-8c3d-5508755e0712">
+					<reportElement x="0" y="672" width="70" height="15" uuid="8229d2e0-0911-4984-bce0-ff6a9bfe9727">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -1042,7 +1039,7 @@
 					<text><![CDATA[Số TK VNĐ:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="317" width="107" height="15" uuid="97b131ac-a006-464d-9ce9-3553667a8111">
+					<reportElement x="0" y="687" width="107" height="15" uuid="f4a163cf-1cd5-4ea0-8f91-7ad3b916882c">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1052,7 +1049,7 @@
 					<text><![CDATA[Số TK ngoại tệ (......):]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="332" width="75" height="15" uuid="8902a726-5144-4afd-8a0d-ad332d679ff1">
+					<reportElement x="0" y="702" width="75" height="15" uuid="8b4ff78e-c15d-4860-9c87-b56183b86904">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -1062,7 +1059,7 @@
 					<text><![CDATA[Số TK Ví Việt:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="347" width="96" height="15" uuid="fa8a5f4b-6819-418b-939d-7a470c9efe56">
+					<reportElement x="0" y="717" width="96" height="15" uuid="daa24397-2cb8-4f9c-bd78-22e2321d7d67">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
@@ -1072,42 +1069,45 @@
 					<text><![CDATA[Ngày mở tài khoản:]]></text>
 				</staticText>
 				<textField>
-					<reportElement x="70" y="287" width="484" height="15" uuid="4a24b92b-27d7-4a39-9e05-63bd0d8978ea"/>
+					<reportElement x="70" y="657" width="484" height="15" uuid="bc64e21d-4cf5-4bdd-a518-93377610944a"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="12"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{employeeId}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="70" y="302" width="484" height="15" uuid="aba7e90f-f353-4fe0-8b2c-f5e65d9de767"/>
+					<reportElement x="70" y="672" width="484" height="15" uuid="19c71814-93ff-499e-8e34-226feb3f84c8"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="12"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{accountNumberVND}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="75" y="332" width="479" height="15" uuid="d3d78bb1-7ec7-42de-9033-8a08d0be9509"/>
+					<reportElement x="75" y="702" width="479" height="15" uuid="5553fbc7-2b0d-4a50-a20a-7d04a2e75c3b"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="12"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{accountNumberViViet}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="96" y="347" width="458" height="15" uuid="59fe908a-0bec-464b-ad36-27fa09dd2513"/>
+					<reportElement x="96" y="717" width="458" height="15" uuid="34da1a41-288b-41b0-bc46-0d8c612ea829"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="12"/>
 					</textElement>
 					<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format($F{accountOpeningDate})]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="107" y="317" width="447" height="15" uuid="c40c353b-3d6f-44f6-a784-3fd5cf8e3ddf"/>
+					<reportElement x="107" y="687" width="447" height="15" uuid="54164eb8-1d4f-4a33-b928-f0a8c2e1cf18"/>
 					<textElement verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="12"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{accountNumberForeign}]]></textFieldExpression>
 				</textField>
+			</band>
+			<band height="435">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				<frame>
-					<reportElement x="0" y="364" width="175" height="100" uuid="31b64d80-b00e-4182-a406-5cf98d18a5e7">
+					<reportElement x="0" y="0" width="175" height="100" uuid="31b64d80-b00e-4182-a406-5cf98d18a5e7">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
 					<staticText>
@@ -1132,7 +1132,7 @@
 					</staticText>
 				</frame>
 				<frame>
-					<reportElement x="175" y="364" width="175" height="100" uuid="b14ff821-b738-4ee5-9266-1fdeb2fa66a6">
+					<reportElement x="175" y="0" width="175" height="100" uuid="b14ff821-b738-4ee5-9266-1fdeb2fa66a6">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
 					<staticText>
@@ -1157,7 +1157,7 @@
 					</staticText>
 				</frame>
 				<frame>
-					<reportElement x="350" y="364" width="204" height="100" uuid="86da9d85-18e0-4012-8040-9e1d6d0d8a67">
+					<reportElement x="350" y="0" width="204" height="100" uuid="86da9d85-18e0-4012-8040-9e1d6d0d8a67">
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
 					<staticText>
@@ -1182,7 +1182,7 @@
 					</staticText>
 				</frame>
 				<staticText>
-					<reportElement x="18" y="550" width="535" height="13" uuid="40c646d9-4d7f-4bc3-9740-a7cf50af190d">
+					<reportElement x="18" y="186" width="535" height="13" uuid="40c646d9-4d7f-4bc3-9740-a7cf50af190d">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1191,7 +1191,7 @@
 					<text><![CDATA[Nếu có nhiều hơn 1 quốc tịch, Khách hàng khai báo theo thứ tự Quốc tịch thứ nhất – Quốc tịch thứ hai.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="563" width="535" height="13" uuid="ff234296-f345-4685-b4a8-72d3665a516b">
+					<reportElement x="18" y="199" width="535" height="13" uuid="ff234296-f345-4685-b4a8-72d3665a516b">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1200,7 +1200,7 @@
 					<text><![CDATA[GTXM là Giấy chứng minh nhân dân hoặc Thẻ căn cước công dân hoặc Hộ chiếu còn thời hạn hiệu lực hoặc Giấy khai sinh của cá nhân chưa]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="576" width="535" height="13" uuid="ce99b6fe-86b4-4821-984f-702741416ea0">
+					<reportElement x="18" y="212" width="535" height="13" uuid="ce99b6fe-86b4-4821-984f-702741416ea0">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1209,7 +1209,7 @@
 					<text><![CDATA[đủ 14 tuổi.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="602" width="535" height="13" uuid="131e724f-c85e-4e61-8c8c-0d62247fe96c">
+					<reportElement x="18" y="238" width="535" height="13" uuid="131e724f-c85e-4e61-8c8c-0d62247fe96c">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1218,7 +1218,7 @@
 					<text><![CDATA[vào số điện thoại này.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="589" width="535" height="13" uuid="b1af9fc8-c7de-4b9a-b35b-88c5d429e59d">
+					<reportElement x="18" y="225" width="535" height="13" uuid="b1af9fc8-c7de-4b9a-b35b-88c5d429e59d">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1227,7 +1227,7 @@
 					<text><![CDATA[Trừ trường hợp có yêu cầu khác, Ngân hàng mặc định gửi tin nhắn thông báo khi phát sinh các giao dịch liên quan đến STK/HĐTG của Khách hàng]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="654" width="535" height="13" uuid="7b887b0f-5021-4c1e-bd9d-de731f424af8">
+					<reportElement x="18" y="290" width="535" height="13" uuid="7b887b0f-5021-4c1e-bd9d-de731f424af8">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1236,7 +1236,7 @@
 					<text><![CDATA[-    Số ngày có mặt ở Mỹ tại năm hiện tại ≥ 31 ngày.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="641" width="535" height="13" uuid="8d5b4a85-ca85-4bad-9b45-862cfe8b139c">
+					<reportElement x="18" y="277" width="535" height="13" uuid="8d5b4a85-ca85-4bad-9b45-862cfe8b139c">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1245,7 +1245,7 @@
 					<text><![CDATA[kiện là:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="628" width="535" height="13" uuid="1d03bef6-2f56-4efb-8ab9-aae223074365">
+					<reportElement x="18" y="264" width="535" height="13" uuid="1d03bef6-2f56-4efb-8ab9-aae223074365">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1254,7 +1254,7 @@
 					<text><![CDATA[Khách hàng được coi là đối tượng cư trú tại Mỹ cho mục đích thuế khi có thẻ xanh hoặc có thời gian có mặt ở Mỹ với sự thỏa mãn đồng thời 02 điều]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="615" width="535" height="13" uuid="36f84edf-bfcc-42f3-b184-6fc9fd933da2">
+					<reportElement x="18" y="251" width="535" height="13" uuid="36f84edf-bfcc-42f3-b184-6fc9fd933da2">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1263,7 +1263,7 @@
 					<text><![CDATA[Trường hợp Khách hàng không lựa chọn thời hạn ủy quyền, việc ủy quyền được coi là có thời hạn trong vòng 01 năm kể từ ngày mở tài khoản.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="758" width="535" height="13" uuid="94ab00a6-b317-4432-9946-b8501f391b63">
+					<reportElement x="18" y="394" width="535" height="13" uuid="94ab00a6-b317-4432-9946-b8501f391b63">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1272,7 +1272,7 @@
 					<text><![CDATA[hàng vui lòng kê khai 02 bản Hợp đồng.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="745" width="535" height="13" uuid="9e24c902-1ef3-430f-b917-f8985dc4e748">
+					<reportElement x="18" y="381" width="535" height="13" uuid="9e24c902-1ef3-430f-b917-f8985dc4e748">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1281,7 +1281,7 @@
 					<text><![CDATA[Khách hàng được giữ 01 bản photo “Đề nghị kiêm hợp đồng mở tài khoản và sử dụng dịch vụ tài khoản”. Trường hợp có nhu cầu nhận bản gốc, Khách]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="732" width="535" height="13" uuid="e37ab0d2-024b-4d97-b8a0-d25483d0f399">
+					<reportElement x="18" y="368" width="535" height="13" uuid="e37ab0d2-024b-4d97-b8a0-d25483d0f399">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1290,7 +1290,7 @@
 					<text><![CDATA[ĐVKD thực hiện gạch bỏ (\) đối với các nội dung Khách hàng không khai báo thông tin trên mẫu biểu.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="719" width="535" height="13" uuid="373b5e68-d546-45e3-8c54-032159321581">
+					<reportElement x="18" y="355" width="535" height="13" uuid="373b5e68-d546-45e3-8c54-032159321581">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1299,7 +1299,7 @@
 					<text><![CDATA[Thông tin được đánh dấu (*) là thông tin bắt buộc phải kê khai.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="706" width="535" height="13" uuid="b1c8648a-64fa-4d73-8fb1-2be4d8b44f54">
+					<reportElement x="18" y="342" width="535" height="13" uuid="b1c8648a-64fa-4d73-8fb1-2be4d8b44f54">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1308,7 +1308,7 @@
 					<text><![CDATA[giao dịch chuyển đổi.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="693" width="535" height="13" uuid="d6dd013e-9879-4106-8f14-6fa876ffa8b2">
+					<reportElement x="18" y="329" width="535" height="13" uuid="d6dd013e-9879-4106-8f14-6fa876ffa8b2">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1317,7 +1317,7 @@
 					<text><![CDATA[Tỷ giá được niêm yết tại ngày giao dịch. Trường hợp trong ngày giao dịch có thay đổi tỷ giá sẽ áp dụng tỷ giá cập nhật nhất tại thời điểm hạch toán]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="680" width="535" height="13" uuid="b2c3c213-4388-4ad0-8cc4-152e569a0375">
+					<reportElement x="18" y="316" width="535" height="13" uuid="b2c3c213-4388-4ad0-8cc4-152e569a0375">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1326,7 +1326,7 @@
 					<text><![CDATA[Tỷ giá trên chưa bao gồm ưu đãi tỷ giá (nếu có) áp dụng theo quy định từng thời kỳ của Ngân hàng]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="667" width="535" height="13" uuid="ebdb93f0-dd7f-4ad5-a556-5900fd76d4ed">
+					<reportElement x="18" y="303" width="535" height="13" uuid="ebdb93f0-dd7f-4ad5-a556-5900fd76d4ed">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1335,7 +1335,7 @@
 					<text><![CDATA[-    Số ngày có mặt ở Mỹ trong 3 năm gần nhất ≥ 183 ngày.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="784" width="535" height="13" uuid="aed76dee-b26a-4b6b-a003-010a5ee425c7">
+					<reportElement x="18" y="420" width="535" height="13" uuid="aed76dee-b26a-4b6b-a003-010a5ee425c7">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1344,7 +1344,7 @@
 					<text><![CDATA[cấp bản in cho Khách hàng trong trường hợp có nhu cầu.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="18" y="771" width="535" height="13" uuid="81d12c02-955a-4a6f-9d45-74c553731eae">
+					<reportElement x="18" y="407" width="535" height="13" uuid="81d12c02-955a-4a6f-9d45-74c553731eae">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					</reportElement>
 					<textElement verticalAlignment="Middle">
@@ -1353,7 +1353,7 @@
 					<text><![CDATA[ĐVKD niêm yết công khai “Điều khoản về mở, sử dụng và quản lý thông tin tài khoản thanh toán” dành cho Khách hàng tại quầy giao dịch hoặc cung]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="550" width="18" height="13" uuid="34b2d57d-ef60-4ef0-bdd5-6f3812443f07">
+					<reportElement x="0" y="186" width="18" height="13" uuid="34b2d57d-ef60-4ef0-bdd5-6f3812443f07">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1363,7 +1363,7 @@
 					<text><![CDATA[1.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="536" width="30" height="13" uuid="f11c2da2-60d3-4ad9-8696-864a7aa27a65">
+					<reportElement x="0" y="172" width="30" height="13" uuid="f11c2da2-60d3-4ad9-8696-864a7aa27a65">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1373,7 +1373,7 @@
 					<text><![CDATA[Lưu ý:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="563" width="18" height="13" uuid="864f9bab-a4ae-4a7f-9d93-f76055fbff05">
+					<reportElement x="0" y="199" width="18" height="13" uuid="864f9bab-a4ae-4a7f-9d93-f76055fbff05">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1383,7 +1383,7 @@
 					<text><![CDATA[2.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="589" width="18" height="13" uuid="a4ac8f64-ed42-46d4-bd43-abb4a15e97ea">
+					<reportElement x="0" y="225" width="18" height="13" uuid="a4ac8f64-ed42-46d4-bd43-abb4a15e97ea">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1393,7 +1393,7 @@
 					<text><![CDATA[3.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="615" width="18" height="13" uuid="658297a4-2190-4e75-bc47-24c3af5b0730">
+					<reportElement x="0" y="251" width="18" height="13" uuid="658297a4-2190-4e75-bc47-24c3af5b0730">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1403,7 +1403,7 @@
 					<text><![CDATA[4.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="628" width="18" height="13" uuid="ae13807b-afb9-4657-a63d-abd2700f655e">
+					<reportElement x="0" y="264" width="18" height="13" uuid="ae13807b-afb9-4657-a63d-abd2700f655e">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1413,7 +1413,7 @@
 					<text><![CDATA[5.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="680" width="18" height="13" uuid="279658e8-f254-42e9-9b1b-fc675dfc7527">
+					<reportElement x="0" y="316" width="18" height="13" uuid="279658e8-f254-42e9-9b1b-fc675dfc7527">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1423,7 +1423,7 @@
 					<text><![CDATA[6.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="693" width="18" height="13" uuid="0518db62-a974-489e-b86c-e81c6dda3708">
+					<reportElement x="0" y="329" width="18" height="13" uuid="0518db62-a974-489e-b86c-e81c6dda3708">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1433,7 +1433,7 @@
 					<text><![CDATA[7.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="719" width="18" height="13" uuid="408eb752-9e62-4305-b8cc-878395d1fbaf">
+					<reportElement x="0" y="355" width="18" height="13" uuid="408eb752-9e62-4305-b8cc-878395d1fbaf">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1443,7 +1443,7 @@
 					<text><![CDATA[8.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="732" width="18" height="13" uuid="3fe36e3c-e986-450e-8c2a-ff4ea9acfed0">
+					<reportElement x="0" y="368" width="18" height="13" uuid="3fe36e3c-e986-450e-8c2a-ff4ea9acfed0">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1453,7 +1453,7 @@
 					<text><![CDATA[9.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="745" width="18" height="13" uuid="9b76c113-877a-41f2-afb9-66affe133d5d">
+					<reportElement x="0" y="381" width="18" height="13" uuid="9b76c113-877a-41f2-afb9-66affe133d5d">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>
@@ -1463,7 +1463,7 @@
 					<text><![CDATA[10.]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="0" y="771" width="18" height="13" uuid="72320c6c-4923-4f84-b5ba-8f91ac330827">
+					<reportElement x="0" y="407" width="18" height="13" uuid="72320c6c-4923-4f84-b5ba-8f91ac330827">
 						<property name="com.jaspersoft.studio.unit.height" value="px"/>
 						<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					</reportElement>

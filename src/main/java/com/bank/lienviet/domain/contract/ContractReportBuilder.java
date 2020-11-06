@@ -25,6 +25,9 @@ public class ContractReportBuilder {
     }
     public String exportReport() throws FileNotFoundException, JRException {
         File file = ResourceUtils.getFile("classpath:HopDongPro.jrxml");
+
+//        File file = new File(Objects.requireNonNull(getClass().getClassLoader().getResource(reportType.getFileResourcePath())).getFile());
+
         String path = "D:\\DEV\\printed reports\\";
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
 
