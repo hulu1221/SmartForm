@@ -1,11 +1,15 @@
 package com.bank.lienviet.domain.contract.infor;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.sql.Timestamp;
 
 @Data
-public class CoOwnerGuardianAuthorizedPerson extends FATCA {
+@AllArgsConstructor
+@NoArgsConstructor
+public class AccountCoOwner {
 
     private Boolean coOwnerWithAccountHolder;
 

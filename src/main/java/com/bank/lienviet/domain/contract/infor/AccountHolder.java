@@ -1,10 +1,13 @@
 package com.bank.lienviet.domain.contract.infor;
 
 import lombok.Data;
+import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
+
 import java.sql.Timestamp;
+import java.util.List;
 
 @Data
-public class AccountHolder extends ApplyingNewAccount {
+public class AccountHolder extends ForeignTrust{
 
     private String customerName;
 
@@ -91,4 +94,37 @@ public class AccountHolder extends ApplyingNewAccount {
 
     private Boolean usingOverDraft;
 
+    // II Dang ky mo tai khoan
+    private List<AccountRegistration> accountRegistration;
+
+    // III Dang ky cac dich vu ngan hang so
+    private List<DigitalBanking> digitalBanking;
+
+    // V Thong tin nguoi dong so huu
+    private List<AccountCoOwner> coOwnerList;
+
+    // For report builder
+    public Integer getAccountRegistrationListSize() {
+        return accountRegistration.size();
+    }
+
+    public Integer getDigitalBankingListSize() {
+        return digitalBanking.size();
+    }
+
+    public Integer getCoOwnerListSize() {
+        return coOwnerList.size();
+    }
+
+    public JRBeanCollectionDataSource getAccountRegistrationList() {
+        return new JRBeanCollectionDataSource(accountRegistration);
+    }
+
+    public JRBeanCollectionDataSource getDigitalBankingList() {
+        return new JRBeanCollectionDataSource(digitalBanking);
+    }
+
+    public JRBeanCollectionDataSource getCoOwnerList() {
+        return new JRBeanCollectionDataSource(coOwnerList);
+    }
 }

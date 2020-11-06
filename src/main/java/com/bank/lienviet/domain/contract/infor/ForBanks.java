@@ -23,5 +23,4 @@ public class ForBanks {
 
     private String businessHeadName;
 
-
 }

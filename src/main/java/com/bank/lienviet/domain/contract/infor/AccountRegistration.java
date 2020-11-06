@@ -1,12 +1,13 @@
 package com.bank.lienviet.domain.contract.infor;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
-
-import java.util.List;
+import lombok.NoArgsConstructor;
 
 @Data
-public class ApplyingNewAccount extends ForeignTrust {
+@NoArgsConstructor()
+@AllArgsConstructor()
+public class AccountRegistration {
 
     private String accountName;
 
@@ -27,7 +28,4 @@ public class ApplyingNewAccount extends ForeignTrust {
     private Boolean currencyTypeOther;
 
     private String currencyTypeOtherStr;
-
-    private JRBeanCollectionDataSource digitalBanking;
-
 }

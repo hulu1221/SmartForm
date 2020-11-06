@@ -1,11 +1,12 @@
 package com.bank.lienviet.domain.contract;
 
-import com.bank.lienviet.domain.contract.infor.AccountHolder;
+import com.bank.lienviet.domain.contract.infor.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.util.List;
 
 /**
  * {All component of a contract}
@@ -32,5 +33,6 @@ public class Contract extends AccountHolder implements Serializable {
     private String bankAgency;
 
     private Timestamp date;
+
 }
 

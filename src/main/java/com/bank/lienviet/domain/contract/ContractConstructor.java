@@ -1,7 +1,8 @@
 package com.bank.lienviet.domain.contract;
 
+import com.bank.lienviet.domain.contract.infor.AccountCoOwner;
+import com.bank.lienviet.domain.contract.infor.AccountRegistration;
 import com.bank.lienviet.domain.contract.infor.DigitalBanking;
-import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -59,16 +60,48 @@ public class ContractConstructor {
         contract.setUsingOverDraft(true);
 
         // II Đăng ký mở tài khoản
-        contract.setAccountName("accoutn name");
-        contract.setAccountPlan("account plan");
-        contract.setAccountTypePayment(true);
-        contract.setAccountTypeReceiveSalary(false);
-        contract.setAccountTypeOther(false);
-        contract.setAccountTypeOtherStr("other account type");
-        contract.setCurrencyTypeVND(true);
-        contract.setCurrencyTypeUSD(false);
-        contract.setCurrencyTypeOther(false);
-        contract.setCurrencyTypeOtherStr("other currency type");
+        List<AccountRegistration> accRegList = new ArrayList<>();
+        AccountRegistration reg1 = new AccountRegistration(
+                "account name 1",
+                "account plan 1",
+                true,
+                false,
+                false,
+                "",
+                true,
+                false,
+                false,
+                ""
+                );
+        AccountRegistration reg2 = new AccountRegistration(
+                "account name 2",
+                "account plan 2",
+                false,
+                true,
+                false,
+                "",
+                false,
+                true,
+                false,
+                ""
+        );
+        AccountRegistration reg3 = new AccountRegistration(
+                "account name 3",
+                "account plan 3",
+                false,
+                false,
+                true,
+                "other account type",
+                false,
+                false,
+                true,
+                "other currency type"
+        );
+        accRegList.add(reg1);
+        accRegList.add(reg2);
+        accRegList.add(reg3);
+
+        contract.setAccountRegistration(accRegList);
 
         // III Đăng ký các dịch vụ ngân hàng số
         List<DigitalBanking> listAcc = new ArrayList<>();
@@ -193,54 +226,100 @@ public class ContractConstructor {
         listAcc.add(newAcc2);
         listAcc.add(newAcc3);
 
-        JRBeanCollectionDataSource accDataSource = new JRBeanCollectionDataSource(listAcc);
-
-        contract.setDigitalBanking(accDataSource);
+        contract.setDigitalBanking(listAcc);
         // IV Nhận ủy thác của ủy thác nước ngoài
         contract.setForeignTrust1(true);
         contract.setForeignTrust2(true);
 
         // VI Thông tin Người đồng sở hữu/Người giám hộ/Người được ủy quyền
-        contract.setCoOwnerWithAccountHolder(true);
-        contract.setGuardianOfAccountHolder(false);
-        contract.setPersonAuthorizedByAccountHolder(false);
-        contract.setCoName("co owner name");
-        contract.setCoGender(false);
-        contract.setCoBirthday(new Timestamp(System.currentTimeMillis()));
-        contract.setCoBirthPlace("co-owner birth place");
-        contract.setCoResident(true);
-        contract.setCoNationality("Vietnam");
-        contract.setRelationshipWithAccountHolder("wife");
-        contract.setCoVerificationPapers("CMT");
-        contract.setCoVerificationPaperDate(new Timestamp(System.currentTimeMillis()));
-        contract.setCoVerificationPaperPlace("Hà nội");
-        contract.setCoFreeVisa(true);
-        contract.setCoBeginDateVisa(new Timestamp(System.currentTimeMillis()));
-        contract.setCoEndDateVisa(new Timestamp(System.currentTimeMillis()));
-        contract.setCoPermanentAddress("Hoàng Mai, Hà nội");
-        contract.setCoCurrentAddress("Hà nội, Việt Nam");
-        contract.setCoLandlinePhone("024568789");
-        contract.setCoMobilePhone("036987456");
-        contract.setCoEmail("email2@email.com");
-        contract.setCoJobOfficeWorker(true);
-        contract.setCoJobCivilServant(false );
-        contract.setCoJobRetired(false);
-        contract.setCoJobStudent(false);
-        contract.setCoJobOther(false);
-        contract.setCoJobSelfEmployed(false);
-        contract.setCoJobOtherStr("công việc khác");
-        contract.setCoJobPosition("vị trí làm việc");
-        contract.setCoWorkPlace("nơi làm việc");
-        contract.setAuthorizationScopeAll(false);
-        contract.setAuthorizationScopeOther(true);
-        contract.setAuthorizationScopeOtherStr("phạm vi ủy quyền khác");
-        contract.setAuthorizationPeriodByDate(true);
-        contract.setAuthorizationPeriodByDateBegin(new Timestamp(System.currentTimeMillis()));
-        contract.setAuthorizationPeriodByDateEnd(new Timestamp(System.currentTimeMillis()));
-        contract.setAuthorizationPeriodWaitUntilDone(false);
-        contract.setAuthorizationPeriodFromDate(false);
-        contract.setAuthorizationPeriodFromDateBegin(new Timestamp(System.currentTimeMillis()));
+        List<AccountCoOwner> coOwnersList = new ArrayList<>();
+        AccountCoOwner coOwner1 = new AccountCoOwner(
+                true,
+                false,
+                false,
+                "co owner name 1",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                "co owner birth place",
+                true,
+                "Vietnam",
+                "relationship 1",
+                "GTXM1",
+                new Timestamp(System.currentTimeMillis()),
+                "paper place",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                new Timestamp(System.currentTimeMillis()),
+                "permanent address",
+                "current address",
+                "01234657",
+                "031245545",
+                "email@email.com",
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                "other job",
+                "job position",
+                "co-owner work place",
+                true,
+                true,
+                " other scope",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                new Timestamp(System.currentTimeMillis()),
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                true
+                );
 
+        AccountCoOwner coOwner2 = new AccountCoOwner(
+                true,
+                false,
+                false,
+                "co owner name 2",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                "co owner birth place",
+                true,
+                "Vietnam",
+                "relationship 1",
+                "GTXM1",
+                new Timestamp(System.currentTimeMillis()),
+                "paper place",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                new Timestamp(System.currentTimeMillis()),
+                "permanent address",
+                "current address",
+                "01234657",
+                "031245545",
+                "email@email.com",
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                "other job",
+                "job position",
+                "co-owner work place",
+                true,
+                true,
+                " other scope",
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                new Timestamp(System.currentTimeMillis()),
+                true,
+                new Timestamp(System.currentTimeMillis()),
+                true
+        );
+        coOwnersList.add(coOwner1);
+        coOwnersList.add(coOwner2);
+        coOwnersList.add(coOwner2);
+        contract.setCoOwnerList(coOwnersList);
 
         // VI Thông tin FATCA
         contract.setFatCa1(false);
