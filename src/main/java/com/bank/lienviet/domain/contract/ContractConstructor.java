@@ -98,9 +98,12 @@ public class ContractConstructor {
                 "other currency type"
         );
         accRegList.add(reg1);
-        accRegList.add(reg2);
-        accRegList.add(reg3);
-
+//        accRegList.add(reg2);
+//        accRegList.add(reg3);
+//        accRegList.add(reg1);
+//        accRegList.add(reg2);
+//        accRegList.add(reg3);
+//        accRegList.add(reg3);
         contract.setAccountRegistration(accRegList);
 
         // III Đăng ký các dịch vụ ngân hàng số
@@ -223,8 +226,8 @@ public class ContractConstructor {
                 true,
                 "0123456789");
         listAcc.add(newAcc1);
-        listAcc.add(newAcc2);
-        listAcc.add(newAcc3);
+//        listAcc.add(newAcc2);
+//        listAcc.add(newAcc3);
 
         contract.setDigitalBanking(listAcc);
         // IV Nhận ủy thác của ủy thác nước ngoài
@@ -317,8 +320,8 @@ public class ContractConstructor {
                 true
         );
         coOwnersList.add(coOwner1);
-        coOwnersList.add(coOwner2);
-        coOwnersList.add(coOwner2);
+//        coOwnersList.add(coOwner2);
+//        coOwnersList.add(coOwner2);
         contract.setCoOwnerList(coOwnersList);
 
         // VI Thông tin FATCA
