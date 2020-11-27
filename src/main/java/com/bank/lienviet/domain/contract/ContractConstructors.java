@@ -1,5 +1,6 @@
 package com.bank.lienviet.domain.contract;
 
+import com.bank.lienviet.domain.contract.Contract;
 import com.bank.lienviet.domain.contract.infor.AccountCoOwner;
 import com.bank.lienviet.domain.contract.infor.AccountRegistration;
 import com.bank.lienviet.domain.contract.infor.DigitalBanking;
@@ -8,7 +9,7 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContractConstructor {
+public class ContractConstructors {
     public Contract getContract() {
         Contract contract = new Contract();
         contract.setContractId("123456");
@@ -72,7 +73,7 @@ public class ContractConstructor {
                 false,
                 false,
                 ""
-                );
+        );
         AccountRegistration reg2 = new AccountRegistration(
                 "account name 2",
                 "account plan 2",
@@ -98,6 +99,12 @@ public class ContractConstructor {
                 "other currency type"
         );
         accRegList.add(reg1);
+        accRegList.add(reg2);
+        accRegList.add(reg3);
+        accRegList.add(reg1);
+        accRegList.add(reg2);
+        accRegList.add(reg3);
+        accRegList.add(reg3);
         contract.setAccountRegistration(accRegList);
 
         // III Đăng ký các dịch vụ ngân hàng số
@@ -220,6 +227,8 @@ public class ContractConstructor {
                 true,
                 "0123456789");
         listAcc.add(newAcc1);
+        listAcc.add(newAcc2);
+        listAcc.add(newAcc3);
 
         contract.setDigitalBanking(listAcc);
         // IV Nhận ủy thác của ủy thác nước ngoài
@@ -268,7 +277,7 @@ public class ContractConstructor {
                 true,
                 new Timestamp(System.currentTimeMillis()),
                 true
-                );
+        );
 
         AccountCoOwner coOwner2 = new AccountCoOwner(
                 true,
@@ -312,6 +321,8 @@ public class ContractConstructor {
                 true
         );
         coOwnersList.add(coOwner1);
+        coOwnersList.add(coOwner2);
+        coOwnersList.add(coOwner2);
         contract.setCoOwnerList(coOwnersList);
 
         // VI Thông tin FATCA
@@ -338,3 +349,4 @@ public class ContractConstructor {
         return contract;
     }
 }
+

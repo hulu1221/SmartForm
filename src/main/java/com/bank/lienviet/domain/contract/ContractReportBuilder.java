@@ -17,7 +17,6 @@ public class ContractReportBuilder {
 
     public JRBeanCollectionDataSource getReportDataSource() {
         List<Contract> contractList = new ArrayList<>();
-        System.out.println(this.contract.getDigitalBankingListSize());
         contractList.add(this.contract);
         return new JRBeanCollectionDataSource(contractList);
     }

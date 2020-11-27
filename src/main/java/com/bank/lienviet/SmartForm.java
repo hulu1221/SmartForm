@@ -9,7 +9,6 @@ public class SmartForm {
     public static void main(String[] args) {
 
         SpringApplication.run(SmartForm.class, args);
-        System.out.println(System.currentTimeMillis());
     }
 
 }
